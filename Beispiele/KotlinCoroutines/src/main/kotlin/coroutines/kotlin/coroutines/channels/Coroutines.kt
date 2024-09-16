@@ -10,7 +10,7 @@ import kotlinx.coroutines.launch
 import kotlinx.coroutines.runBlocking
 import kotlin.text.StringBuilder
 
-val chars = "Hello KKON digital 2022!".toCharArray()
+val chars = "Hello KKON digital 2024!".toCharArray()
 
 fun main () = simpelKKONCharacterChannel()
 

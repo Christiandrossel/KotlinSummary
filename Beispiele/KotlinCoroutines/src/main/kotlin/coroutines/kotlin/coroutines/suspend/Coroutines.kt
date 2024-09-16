@@ -44,7 +44,7 @@ suspend fun delayedKKON() {
 suspend fun delayedKKONNewJobs() = coroutineScope {
     launch {
         delay(2000L)
-        println("2022")
+        println("2024")
     }
 
     launch {

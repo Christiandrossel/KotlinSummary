@@ -13,7 +13,7 @@ fun helloWithJob () = runBlocking {
     }
     println("Willkommen zur")
     job.join()
-    println("2022")
+    println("2024")
 }
 
 fun helloWithJobCancelation () = runBlocking {
@@ -49,7 +49,7 @@ suspend fun delayedDigital() {
         delay(2000L)
         println("digital")
     }catch(e : CancellationException){
-        println("Abbruch Karlsruhe :(")
+        println("Abbruch KKON :(")
     }
 }
 
