@@ -1,4 +1,4 @@
-package CreationalPatterns
+package CreationalPatterns.Factory_Method
 
 /**
  * Factory Method is a creational design pattern that provides an interface for creating objects in a superclass,
