@@ -1,0 +1,419 @@
+{
+  "Category": [
+    {
+      "Description": " / Sachmedien & Ratgeber / Sport & Fitness / Motorsport ",
+      "IDTypeName": "DVB",
+      "IDValue": "436"
+    }
+  ],
+  "isContainer": "true",
+  "Title": [
+    {
+      "TitleText": "MOTORRAD",
+      "Subtitle": "",
+      "TitleType": "01"
+    }
+  ],
+  "ProductForm": {
+    "ProductFormDetail": [
+      "E107"
+    ],
+    "ProductFormText": "Mehrteiliges Produkt"
+  },
+  "ProductContentType": [
+    "eMagazine"
+  ],
+  "Publisher": [
+    {
+      "PublishingRole": "01",
+      "PublisherName": "Motor Presse Stuttgart GmbH & Co. KG"
+    }
+  ],
+  "AudienceRangeRecommendation": {
+    "Type": "Sachbuch Hobby",
+    "ToAge": null,
+    "FromAge": null
+  },
+  "Language": [
+    {
+      "LanguageCode": "ger",
+      "LanguageRole": "01"
+    }
+  ],
+  "ProductIdentifier": [
+    {
+      "IDTypeName": "ISSN",
+      "IDValue": "VDZ04973"
+    }
+  ],
+  "Collection": [
+    {
+      "CollectionTitle": [
+        "MOTORRAD"
+      ],
+      "CollectionType": "10",
+      "CollectionSubtitle": [
+        ""
+      ],
+      "CollectionIdentifier": [
+        {
+          "IDTypeName": "ISSN",
+          "IDValue": [
+            "VDZ04973"
+          ]
+        },
+        {
+          "IDTypeName": "divibib Reihe-title_id",
+          "IDValue": [
+            "530095627"
+          ]
+        }
+      ]
+    }
+  ],
+  "MediaContent": {
+    "SupplierContent": [
+      {
+        "SupplierId": "65c24240673f3d10bd6297c0",
+        "Preview": [],
+        "ProductStatus": "active",
+        "Drm": [],
+        "Name": "motorpresse"
+      }
+    ],
+    "Cover": []
+  },
+  "_id": "65c5257b6be4fe30555844d4",
+  "TextContent": [
+    {
+      "TextValue": "MOTORRAD ist die älteste und größte Medienmarke Europas rund um das motorisierte Zweirad. MOTORRAD erscheint alle zwei Wochen mit aufwändigen und seriösen Tests, aktuellen Neuheiten, erlebnisorientiertem Reiseteil, beratenden Serviceberichten und toller Action aus der nationalen und internationalen Motorsportszene.\nErscheinungsweise: zweiwöchentlich",
+      "TextType": "01"
+    }
+  ],
+  "ProductPart": [
+    {
+      "ProductPartIdentifier": [
+        "65c4ebb26be4fe3055551def"
+      ]
+    },
+    {
+      "ProductPartIdentifier": [
+        "65c4ebb26be4fe3055551df3"
+      ]
+    },
+    {
+      "ProductPartIdentifier": [
+        "65c4ebb26be4fe3055551dfb"
+      ]
+    },
+    {
+      "ProductPartIdentifier": [
+        "65c4ebb26be4fe3055551dff"
+      ]
+    },
+    {
+      "ProductPartIdentifier": [
+        "65c4ebb26be4fe3055551e04"
+      ]
+    },
+    {
+      "ProductPartIdentifier": [
+        "65c4ebb26be4fe3055551e09"
+      ]
+    },
+    {
+      "ProductPartIdentifier": [
+        "65c4ebb26be4fe3055551e0d"
+      ]
+    },
+    {
+      "ProductPartIdentifier": [
+        "65c4ebb26be4fe3055551e13"
+      ]
+    },
+    {
+      "ProductPartIdentifier": [
+        "65c4ebb26be4fe3055551e1b"
+      ]
+    },
+    {
+      "ProductPartIdentifier": [
+        "65c4ebb26be4fe3055551e1f"
+      ]
+    },
+    {
+      "ProductPartIdentifier": [
+        "65c4ebb26be4fe3055551e24"
+      ]
+    },
+    {
+      "ProductPartIdentifier": [
+        "65c4ebb26be4fe3055551e28"
+      ]
+    },
+    {
+      "ProductPartIdentifier": [
+        "65c4ebb26be4fe3055551e2f"
+      ]
+    },
+    {
+      "ProductPartIdentifier": [
+        "65c4ebb26be4fe3055551e35"
+      ]
+    },
+    {
+      "ProductPartIdentifier": [
+        "65c4ebb26be4fe3055551e37"
+      ]
+    },
+    {
+      "ProductPartIdentifier": [
+        "65c4ebb26be4fe3055551e41"
+      ]
+    },
+    {
+      "ProductPartIdentifier": [
+        "65c4ebb26be4fe3055551e43"
+      ]
+    },
+    {
+      "ProductPartIdentifier": [
+        "65c4ebb26be4fe3055551e48"
+      ]
+    },
+    {
+      "ProductPartIdentifier": [
+        "65c4ebb26be4fe3055551e4f"
+      ]
+    },
+    {
+      "ProductPartIdentifier": [
+        "65c4ebb26be4fe3055551e55"
+      ]
+    },
+    {
+      "ProductPartIdentifier": [
+        "65c4ebb26be4fe3055551e59"
+      ]
+    },
+    {
+      "ProductPartIdentifier": [
+        "65c4ebb26be4fe3055551e61"
+      ]
+    },
+    {
+      "ProductPartIdentifier": [
+        "65c4ebb26be4fe3055551e65"
+      ]
+    },
+    {
+      "ProductPartIdentifier": [
+        "65c4ebb26be4fe3055551e67"
+      ]
+    },
+    {
+      "ProductPartIdentifier": [
+        "65c4ebb26be4fe3055551e6f"
+      ]
+    },
+    {
+      "ProductPartIdentifier": [
+        "65c4ebb26be4fe3055551e73"
+      ]
+    },
+    {
+      "ProductPartIdentifier": [
+        "65c4ebb26be4fe3055551e7d"
+      ]
+    },
+    {
+      "ProductPartIdentifier": [
+        "65c4ebb26be4fe3055551e81"
+      ]
+    },
+    {
+      "ProductPartIdentifier": [
+        "65c4ebb26be4fe3055551e8d"
+      ]
+    },
+    {
+      "ProductPartIdentifier": [
+        "65c4ebb26be4fe3055551e91"
+      ]
+    },
+    {
+      "ProductPartIdentifier": [
+        "65c4ebb26be4fe3055551e99"
+      ]
+    },
+    {
+      "ProductPartIdentifier": [
+        "65c4ebb26be4fe3055551e9e"
+      ]
+    },
+    {
+      "ProductPartIdentifier": [
+        "65c4ebb26be4fe3055551ea8"
+      ]
+    },
+    {
+      "ProductPartIdentifier": [
+        "65c4ebb26be4fe3055551eac"
+      ]
+    },
+    {
+      "ProductPartIdentifier": [
+        "65c4ebb26be4fe3055551d02"
+      ]
+    },
+    {
+      "ProductPartIdentifier": [
+        "65c4ebb26be4fe3055551d09"
+      ]
+    },
+    {
+      "ProductPartIdentifier": [
+        "65c4ebb26be4fe3055551d0e"
+      ]
+    },
+    {
+      "ProductPartIdentifier": [
+        "65c4ebb26be4fe3055551d17"
+      ]
+    },
+    {
+      "ProductPartIdentifier": [
+        "65c4ebb26be4fe3055551d1c"
+      ]
+    },
+    {
+      "ProductPartIdentifier": [
+        "65c4ebb26be4fe3055551d23"
+      ]
+    },
+    {
+      "ProductPartIdentifier": [
+        "65c4ebb26be4fe3055551d2a"
+      ]
+    },
+    {
+      "ProductPartIdentifier": [
+        "65c4ebb26be4fe3055551d34"
+      ]
+    },
+    {
+      "ProductPartIdentifier": [
+        "65c4ebb26be4fe3055551d38"
+      ]
+    },
+    {
+      "ProductPartIdentifier": [
+        "65c4ebb26be4fe3055551d3e"
+      ]
+    },
+    {
+      "ProductPartIdentifier": [
+        "65c4ebb26be4fe3055551d46"
+      ]
+    },
+    {
+      "ProductPartIdentifier": [
+        "65c4ebb26be4fe3055551d4b"
+      ]
+    },
+    {
+      "ProductPartIdentifier": [
+        "65c4ebb26be4fe3055551d53"
+      ]
+    },
+    {
+      "ProductPartIdentifier": [
+        "65c4ebb26be4fe3055551d60"
+      ]
+    },
+    {
+      "ProductPartIdentifier": [
+        "65c4ebb26be4fe3055551d63"
+      ]
+    },
+    {
+      "ProductPartIdentifier": [
+        "65c4ebb26be4fe3055551d67"
+      ]
+    },
+    {
+      "ProductPartIdentifier": [
+        "65c4ebb26be4fe3055551d6f"
+      ]
+    },
+    {
+      "ProductPartIdentifier": [
+        "65c4ebb26be4fe3055551d78"
+      ]
+    },
+    {
+      "ProductPartIdentifier": [
+        "65ca229885cb00287012bfa7"
+      ]
+    },
+    {
+      "ProductPartIdentifier": [
+        "65dc82015dea1a73f20349d6"
+      ]
+    },
+    {
+      "ProductPartIdentifier": [
+        "65eeed9194645c4d52f218e6"
+      ]
+    },
+    {
+      "ProductPartIdentifier": [
+        "65fd6999ab786c280e4cbefb"
+      ]
+    },
+    {
+      "ProductPartIdentifier": [
+        "6613b79edcb3220b8630f998"
+      ]
+    },
+    {
+      "ProductPartIdentifier": [
+        "6626578c4e0f8027843a8ac9"
+      ]
+    },
+    {
+      "ProductPartIdentifier": [
+        "6634cb14942a0b5ad30f0dfb"
+      ]
+    },
+    {
+      "ProductPartIdentifier": [
+        "66473e45942a0b5ad3baad22"
+      ]
+    },
+    {
+      "ProductPartIdentifier": [
+        "665d761f434966771ccd6379"
+      ]
+    },
+    {
+      "ProductPartIdentifier": [
+        "6670167f7faa3378883786e0"
+      ]
+    },
+    {
+      "ProductPartIdentifier": [
+        "6682b58ab9cb7774b01eeac1"
+      ]
+    }
+  ],
+  "ContentItem": [
+    {
+      "ItemTitle": [
+        {
+          "TitleText": "Ausgabengabenliste für den divibib-Shop"
+        }
+      ]
+    }
+  ]
+}

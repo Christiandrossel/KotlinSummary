@@ -1,0 +1,137 @@
+{
+  "settings": {
+    "enabledLanguages": [
+      {
+        "name": "Deutsch",
+        "code": "de_DE",
+        "active": true
+      }
+    ],
+    "selectedTheme": "theme-a",
+    "thumbnail": "",
+    "sponsors": []
+  },
+  "name": "jbdslkfahlf",
+  "state": "ACTIVE",
+  "regionId": "german-region-id",
+  "address": {
+    "street": "kjsalfajfl",
+    "houseNumber": "12",
+    "postalCode": "1231",
+    "city": "lkjqlhdlkdh"
+  },
+  "contact": {
+    "nameContactPerson": "name",
+    "phone": "2342719",
+    "email": "name@mail.de",
+    "fax": "2374290",
+    "homepage": ""
+  },
+  "isGlobalContact": true,
+  "restrictions": {
+    "maxNumberOfActiveLendsPerUser": 15,
+    "maxNumberOfReservationsPerUser": 5,
+    "lendRestrictions": {
+      "E_BOOK": {
+        "lendAcceptanceDuration": "PT168H",
+        "maxLendingDuration": "PT336H",
+        "lendExtensionDuration": "PT48H",
+        "automaticReservationAcceptance": false,
+        "lendAcceptanceDurationLocked": false,
+        "maxLendingDurationLocked": false,
+        "lendExtensionDurationLocked": false,
+        "automaticReservationAcceptanceLocked": false
+      },
+      "E_AUDIO": {
+        "lendAcceptanceDuration": null,
+        "maxLendingDuration": "PT336H",
+        "lendExtensionDuration": "PT48H",
+        "automaticReservationAcceptance": false,
+        "lendAcceptanceDurationLocked": false,
+        "maxLendingDurationLocked": false,
+        "lendExtensionDurationLocked": false,
+        "automaticReservationAcceptanceLocked": false
+      },
+      "E_MUSIC": {
+        "lendAcceptanceDuration": "PT168H",
+        "maxLendingDuration": "PT336H",
+        "lendExtensionDuration": "PT48H",
+        "automaticReservationAcceptance": false,
+        "lendAcceptanceDurationLocked": false,
+        "maxLendingDurationLocked": false,
+        "lendExtensionDurationLocked": false,
+        "automaticReservationAcceptanceLocked": false
+      },
+      "E_LEARNING": {
+        "lendAcceptanceDuration": "PT168H",
+        "maxLendingDuration": "PT336H",
+        "lendExtensionDuration": "PT48H",
+        "automaticReservationAcceptance": false,
+        "lendAcceptanceDurationLocked": false,
+        "maxLendingDurationLocked": false,
+        "lendExtensionDurationLocked": false,
+        "automaticReservationAcceptanceLocked": false
+      },
+      "E_MAGAZINE": {
+        "lendAcceptanceDuration": "PT168H",
+        "maxLendingDuration": "PT336H",
+        "lendExtensionDuration": "PT48H",
+        "automaticReservationAcceptance": false,
+        "lendAcceptanceDurationLocked": false,
+        "maxLendingDurationLocked": false,
+        "lendExtensionDurationLocked": false,
+        "automaticReservationAcceptanceLocked": false
+      },
+      "E_PAPER": {
+        "lendAcceptanceDuration": "PT168H",
+        "maxLendingDuration": "PT336H",
+        "lendExtensionDuration": "PT48H",
+        "automaticReservationAcceptance": false,
+        "lendAcceptanceDurationLocked": false,
+        "maxLendingDurationLocked": false,
+        "lendExtensionDurationLocked": false,
+        "automaticReservationAcceptanceLocked": false
+      },
+      "E_VIDEO": {
+        "lendAcceptanceDuration": null,
+        "maxLendingDuration": "PT336H",
+        "lendExtensionDuration": "PT48H",
+        "automaticReservationAcceptance": false,
+        "lendAcceptanceDurationLocked": false,
+        "maxLendingDurationLocked": false,
+        "lendExtensionDurationLocked": false,
+        "automaticReservationAcceptanceLocked": false
+      },
+      "BUNDLE": {
+        "lendAcceptanceDuration": null,
+        "maxLendingDuration": "PT336H",
+        "lendExtensionDuration": "PT48H",
+        "automaticReservationAcceptance": false,
+        "lendAcceptanceDurationLocked": false,
+        "maxLendingDurationLocked": false,
+        "lendExtensionDurationLocked": false,
+        "automaticReservationAcceptanceLocked": false
+      }
+    },
+    "defaultLendRestrictions": {
+      "lendAcceptanceDuration": "PT168H",
+      "maxLendingDuration": "PT336H",
+      "lendExtensionDuration": "PT48H",
+      "automaticReservationAcceptance": false,
+      "lendAcceptanceDurationLocked": false,
+      "maxLendingDurationLocked": false,
+      "lendExtensionDurationLocked": false,
+      "automaticReservationAcceptanceLocked": false
+    },
+    "maxNumberOfReservations": 100
+  },
+  "socialMediaLinks": {
+    "facebook": null,
+    "xPlatform": null,
+    "instagram": null,
+    "youtube": null,
+    "tiktok": null
+  },
+  "additionalLinks": [],
+  "publicKey": null
+}

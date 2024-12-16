@@ -1,0 +1,561 @@
+user-messaging-service  C:\Users\cdrossel\repos\EKZ\onleihe3\user-messaging-service
+  .idea
+  user-messaging-api
+    src
+      main
+        kotlin
+          net.avgl.ekz.onleihe
+            broadcastmessageapi
+              model
+                BroadcastMessage
+                BroadcastMessageDeliveryType
+                MessageContent
+                MessageTarget
+              ManageBroadCastMessagesRestApi
+            common.model
+            usermessageapi
+              model
+                EventType
+                Message
+                MessageCategory
+                MessageCategorySummary
+                MessageStatus
+                MessageStatusUpdate
+                MessageStatusUpdateResult
+                MessageType
+                Page
+                UpdateStatus
+              BroadcastMessageUserRestApi
+              MessagesRestApi
+              TestDataRestApi
+              UserMessageRestApi
+      test
+    target
+    pom.xml
+    user-messaging-api.iml
+  user-messaging-application
+    src
+      main
+        kotlin
+          net.avgl.ekz.onleihe.usermessageapplication
+            configuration
+              kafka
+                ConsumerConfig
+              MongoConfiguration
+              ObjectMapperConfiguration
+              TemplateEngineConfiguration
+              WebConfig
+            connector
+              inventory
+                InventoryEventConsumer
+                InventoryEventService
+              user
+                PatronEventConsumer
+                PatronEventService
+            controller
+              BroadcastMessageUserController
+              ManageBroadcastMessagesController
+              MessagesController
+              UserMessageController
+              UserMessageTestController
+            database
+              entities
+              BroadcastMessageRepository
+              BroadcastUserMessageStatusRepository
+              KafkaDeadLetterRepository
+              PatronSettingsRepository
+              TemplateMessageRepository
+              UserMessagesRepository
+            mapper
+              BroadcastMessageMapper.kt
+              DeviceTypeMapper.kt
+              EventTypeMapper.kt
+              MediaTypeMapper.kt
+              MessageCategoryMapper.kt
+              MessageStatusMapper.kt
+              PageMapper.kt
+              PatronSettingsMapper.kt
+              UrgencyTypeMapper.kt
+              UserMessageMapper.kt
+            model
+              BroadcastMessage.kt
+              BroadcastMessageUserStatus
+              DeviceType
+              EventType
+              Exception.kt
+              MediaType
+              MessageDisplayStatus
+              MessageStatus
+              MessageTarget
+              MessageType
+              NotificationChannel
+              NotificationType
+              OneBasedIndexPageRequest
+              PatronSettings
+              Product
+              TemplateMessage
+              UrgencyType
+              User
+              UserMessage
+            service
+              BroadcastMessageService
+              MailboxService
+              MailService
+              ManageBroadcastMessagesService
+              MessageService
+              NotificationService
+              PatronSettingsService
+              PushService
+              TemplateEngineService
+              UserMessageService
+            test_data_service
+              controller
+              service
+                TestDataCreator
+                TestDataService
+            ServletInitializer
+            UserMessageApplication
+        resources
+          application.properties
+          application-local.properties
+          Template.ftl
+      test
+        kotlin
+          net.avgl.ekz.onleihe.usermessageapplication
+            connector.inventory
+              InventoryEventServiceIT
+              InventoryEventServiceTest
+            model
+            test_util
+            ArchitectureClass.kt
+            BroadcastMessageServiceTest
+            ManageBroadcastMessagesDatabaseTest
+            ManageBroadcastMessagesServiceTest
+            ManageBroadcastMessageTest
+            MessagesControllerTest
+            UserMessageDatabaseTest
+            UserMessageServiceTest
+            UserMessageTest
+        resources
+    target
+    pom.xml
+    user-messaging-application.iml
+  .gitignore
+  .gitlab-cloud-ci.yml
+  Dockerfile
+  pom.xml
+  README.md
+External Libraries
+  < 17 >  C:\Program Files\Java\jdk-17.0.2
+    java.base  library root
+      com.sun
+      java
+        io
+        lang
+        math
+        net
+        nio
+        security
+        text
+        time
+          chrono
+          format
+            DateTimeFormatter
+              ClassicFormat
+            DateTimeFormatterBuilder
+            DateTimeParseContext
+            DateTimeParseException
+            DateTimePrintContext
+            DateTimeTextProvider
+            DecimalStyle
+            FormatStyle
+            Parsed
+            ResolverStyle
+            SignStyle
+            TextStyle
+            ZoneName
+          temporal
+          zone
+          Clock
+          DateTimeException
+          DayOfWeek
+          Duration
+          Instant
+          InstantSource
+          LocalDate
+          LocalDateTime
+          LocalTime
+          Month
+          MonthDay
+          OffsetDateTime
+          OffsetTime
+          Period
+          Ser
+          Year
+          YearMonth
+          ZonedDateTime
+          ZoneId
+          ZoneOffset
+          ZoneRegion
+        util
+      javax
+      jdk.internal
+      META-INF.services
+      sun
+      module-info.class
+    java.compiler  library root
+    java.datatransfer  library root
+    java.desktop  library root
+    java.instrument  library root
+    java.logging  library root
+    java.management  library root
+    java.management.rmi  library root
+    java.naming  library root
+    java.net.http  library root
+    java.prefs  library root
+    java.rmi  library root
+    java.scripting  library root
+    java.se  library root
+    java.security.jgss  library root
+    java.security.sasl  library root
+    java.smartcardio  library root
+    java.sql  library root
+    java.sql.rowset  library root
+    java.transaction.xa  library root
+    java.xml  library root
+    java.xml.crypto  library root
+    jdk.accessibility  library root
+    jdk.attach  library root
+    jdk.charsets  library root
+    jdk.compiler  library root
+    jdk.crypto.cryptoki  library root
+    jdk.crypto.ec  library root
+    jdk.crypto.mscapi  library root
+    jdk.dynalink  library root
+    jdk.editpad  library root
+    jdk.hotspot.agent  library root
+    jdk.httpserver  library root
+    jdk.incubator.foreign  library root
+    jdk.incubator.vector  library root
+    jdk.internal.ed  library root
+    jdk.internal.jvmstat  library root
+    jdk.internal.le  library root
+    jdk.internal.opt  library root
+    jdk.internal.vm.ci  library root
+    jdk.internal.vm.compiler  library root
+    jdk.internal.vm.compiler.management  library root
+    jdk.jartool  library root
+    jdk.javadoc  library root
+    jdk.jcmd  library root
+    jdk.jconsole  library root
+    jdk.jdeps  library root
+    jdk.jdi  library root
+    jdk.jdwp.agent  library root
+    jdk.jfr  library root
+    jdk.jlink  library root
+    jdk.jpackage  library root
+    jdk.jshell  library root
+    jdk.jsobject  library root
+    jdk.jstatd  library root
+    jdk.localedata  library root
+    jdk.management  library root
+    jdk.management.agent  library root
+    jdk.management.jfr  library root
+    jdk.naming.dns  library root
+    jdk.naming.rmi  library root
+    jdk.net  library root
+    jdk.nio.mapmode  library root
+    jdk.random  library root
+    jdk.sctp  library root
+    jdk.security.auth  library root
+    jdk.security.jgss  library root
+    jdk.unsupported  library root
+    jdk.unsupported.desktop  library root
+    jdk.xml.dom  library root
+    jdk.zipfs  library root
+  Maven: ch.qos.logback:logback-classic:1.2.11
+  Maven: ch.qos.logback:logback-core:1.2.11
+  Maven: com.auth0:java-jwt:3.19.2
+  Maven: com.fasterxml.jackson.core:jackson-annotations:2.12.3
+  Maven: com.fasterxml.jackson.core:jackson-core:2.13.4
+  Maven: com.fasterxml.jackson.core:jackson-databind:2.13.4.2
+  Maven: com.fasterxml.jackson.dataformat:jackson-dataformat-csv:2.13.4
+  Maven: com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.13.4
+  Maven: com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.13.4
+  Maven: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.13.4
+  Maven: com.fasterxml.jackson.module:jackson-module-kotlin:2.13.4
+  Maven: com.fasterxml.jackson.module:jackson-module-parameter-names:2.13.4
+  Maven: com.fasterxml.jackson.module:jackson-module-scala_2.13:2.13.4
+  Maven: com.github.luben:zstd-jni:1.5.0-4
+  Maven: com.google.code.findbugs:jsr305:3.0.2
+  Maven: com.jayway.jsonpath:json-path:2.7.0
+  Maven: com.thoughtworks.paranamer:paranamer:2.8
+  Maven: com.tngtech.archunit:archunit:1.0.1
+  Maven: com.typesafe.scala-logging:scala-logging_2.13:3.9.3
+  Maven: com.vaadin.external.google:android-json:0.0.20131108.vaadin1
+  Maven: com.yammer.metrics:metrics-core:2.2.0
+  Maven: commons-cli:commons-cli:1.4
+  Maven: de.codecentric:spring-boot-admin-client:2.3.1
+  Maven: de.codecentric:spring-boot-admin-starter-client:2.3.1
+  Maven: de.flapdoodle.embed:de.flapdoodle.embed.mongo.packageresolver:1.0.10
+  Maven: de.flapdoodle.embed:de.flapdoodle.embed.mongo:3.4.11
+  Maven: de.flapdoodle.embed:de.flapdoodle.embed.process:3.1.15
+  Maven: de.flapdoodle:de.flapdoodle.os:1.1.12
+  Maven: io.dropwizard.metrics:metrics-core:4.2.14
+  Maven: io.github.classgraph:classgraph:4.8.143
+  Maven: io.micrometer:micrometer-core:1.9.6
+  Maven: io.micrometer:micrometer-registry-prometheus:1.9.6
+  Maven: io.netty:netty-buffer:4.1.86.Final
+  Maven: io.netty:netty-codec:4.1.86.Final
+  Maven: io.netty:netty-codec-dns:4.1.86.Final
+  Maven: io.netty:netty-codec-http2:4.1.86.Final
+  Maven: io.netty:netty-codec-http:4.1.86.Final
+  Maven: io.netty:netty-codec-socks:4.1.86.Final
+  Maven: io.netty:netty-common:4.1.86.Final
+  Maven: io.netty:netty-handler:4.1.86.Final
+  Maven: io.netty:netty-handler-proxy:4.1.86.Final
+  Maven: io.netty:netty-resolver:4.1.86.Final
+  Maven: io.netty:netty-resolver-dns:4.1.86.Final
+  Maven: io.netty:netty-resolver-dns-classes-macos:4.1.86.Final
+  Maven: io.netty:netty-resolver-dns-native-macos:osx-x86_64:4.1.86.Final
+  Maven: io.netty:netty-transport:4.1.86.Final
+  Maven: io.netty:netty-transport-classes-epoll:4.1.86.Final
+  Maven: io.netty:netty-transport-native-epoll:4.1.86.Final
+  Maven: io.netty:netty-transport-native-epoll:linux-x86_64:4.1.86.Final
+  Maven: io.netty:netty-transport-native-unix-common:4.1.86.Final
+  Maven: io.projectreactor.kotlin:reactor-kotlin-extensions:1.1.9
+  Maven: io.projectreactor.netty:reactor-netty-core:1.0.26
+  Maven: io.projectreactor.netty:reactor-netty-http:1.0.26
+  Maven: io.projectreactor:reactor-core:3.4.26
+  Maven: io.prometheus:simpleclient:0.15.0
+  Maven: io.prometheus:simpleclient_common:0.15.0
+  Maven: io.prometheus:simpleclient_tracer_common:0.15.0
+  Maven: io.prometheus:simpleclient_tracer_otel:0.15.0
+  Maven: io.prometheus:simpleclient_tracer_otel_agent:0.15.0
+  Maven: io.swagger.core.v3:swagger-annotations:2.2.0
+  Maven: io.swagger.core.v3:swagger-core:2.2.0
+  Maven: io.swagger.core.v3:swagger-models:2.2.0
+  Maven: jakarta.activation:jakarta.activation-api:1.2.2
+  Maven: jakarta.annotation:jakarta.annotation-api:1.3.5
+  Maven: jakarta.validation:jakarta.validation-api:2.0.2
+  Maven: jakarta.xml.bind:jakarta.xml.bind-api:2.3.3
+  Maven: net.avgl.ekz.onleihe:api-error-handler:0.0.3-SNAPSHOT
+  Maven: net.avgl.ekz.onleihe:inventory-events:0.0.28-SNAPSHOT
+  Maven: net.avgl.ekz.onleihe:jwt-security:0.0.13
+  Maven: net.avgl.ekz.onleihe:user-events:0.0.5-SNAPSHOT
+  Maven: net.bytebuddy:byte-buddy:1.12.20
+  Maven: net.bytebuddy:byte-buddy-agent:1.12.20
+  Maven: net.java.dev.jna:jna:5.12.1
+  Maven: net.java.dev.jna:jna-platform:5.12.1
+  Maven: net.minidev:accessors-smart:2.4.8
+  Maven: net.minidev:json-smart:2.4.8
+  Maven: net.sf.jopt-simple:jopt-simple:5.0.4
+  Maven: net.sourceforge.argparse4j:argparse4j:0.7.0
+  Maven: org.apache.commons:commons-compress:1.21
+  Maven: org.apache.commons:commons-lang3:3.12.0
+  Maven: org.apache.kafka:kafka-clients:3.1.2
+  Maven: org.apache.kafka:kafka-clients:test:3.1.2
+  Maven: org.apache.kafka:kafka-metadata:3.1.2
+  Maven: org.apache.kafka:kafka-raft:3.1.2
+  Maven: org.apache.kafka:kafka-server-common:3.1.2
+  Maven: org.apache.kafka:kafka-storage:3.1.2
+  Maven: org.apache.kafka:kafka-storage-api:3.1.2
+  Maven: org.apache.kafka:kafka-streams:3.1.2
+  Maven: org.apache.kafka:kafka-streams-test-utils:3.1.2
+  Maven: org.apache.kafka:kafka_2.13:3.1.2
+  Maven: org.apache.kafka:kafka_2.13:test:3.1.2
+  Maven: org.apache.logging.log4j:log4j-api:2.17.2
+  Maven: org.apache.logging.log4j:log4j-to-slf4j:2.17.2
+  Maven: org.apache.tomcat.embed:tomcat-embed-core:9.0.70
+  Maven: org.apache.tomcat.embed:tomcat-embed-el:9.0.70
+  Maven: org.apache.tomcat.embed:tomcat-embed-websocket:9.0.70
+  Maven: org.apache.yetus:audience-annotations:0.5.0
+  Maven: org.apache.zookeeper:zookeeper:3.6.3
+  Maven: org.apache.zookeeper:zookeeper-jute:3.6.3
+  Maven: org.apiguardian:apiguardian-api:1.1.0
+  Maven: org.assertj:assertj-core:3.22.0
+  Maven: org.bitbucket.b_c:jose4j:0.7.8
+  Maven: org.bouncycastle:bcprov-jdk15on:1.70
+  Maven: org.freemarker:freemarker:2.3.32
+    freemarker-2.3.32.jar  library root
+      freemarker
+        cache
+        core
+        debug
+        ext
+        log
+        template
+          utility
+          _ObjectWrappers
+          _TemplateAPI
+          _VersionInts
+          AdapterTemplateModel
+          AttemptExceptionReporter
+          Configuration
+            DefaultSoftCacheStorage
+            LegacyDefaultFileTemplateLoader
+          DefaultArrayAdapter
+          DefaultEnumerationAdapter
+          DefaultIterableAdapter
+          DefaultIteratorAdapter
+          DefaultListAdapter
+          DefaultMapAdapter
+          DefaultNonListCollectionAdapter
+          DefaultObjectWrapper
+          DefaultObjectWrapperBuilder
+          DefaultObjectWrapperConfiguration
+          EmptyMap
+          FalseTemplateBooleanModel
+          GeneralPurposeNothing
+          IteratorToTemplateModelIteratorAdapter
+          LocalizedString
+          LoggingAttemptExceptionReporter
+          MalformedTemplateNameException
+          MapKeyValuePairIterator
+          ObjectWrapper
+          ObjectWrapperAndUnwrapper
+          ResourceBundleLocalizedString
+          SerializableTemplateBooleanModel
+          SimpleCollection
+          SimpleDate
+          SimpleHash
+          SimpleList
+          SimpleNumber
+          SimpleObjectWrapper
+          SimpleScalar
+          SimpleSequence
+          Template
+          TemplateBooleanModel
+          TemplateCollectionModel
+          TemplateCollectionModelEx
+          TemplateDateModel
+          TemplateDirectiveBody
+          TemplateDirectiveModel
+          TemplateException
+          TemplateExceptionHandler
+          TemplateHashModel
+          TemplateHashModelEx
+          TemplateHashModelEx2
+          TemplateMethodModel
+          TemplateMethodModelEx
+          TemplateModel
+          TemplateModelAdapter
+          TemplateModelException
+          TemplateModelIterator
+          TemplateModelListSequence
+          TemplateModelWithAPISupport
+          TemplateNodeModel
+          TemplateNodeModelEx
+          TemplateNotFoundException
+          TemplateNumberModel
+          TemplateScalarModel
+          TemplateSequenceModel
+          TemplateTransformModel
+          TransformControl
+          TrueTemplateBooleanModel
+          Version
+          WrappingTemplateModel
+        version.properties
+      META-INF
+  Maven: org.hamcrest:hamcrest:2.2
+  Maven: org.hdrhistogram:HdrHistogram:2.1.12
+  Maven: org.jetbrains.kotlin:kotlin-reflect:1.8.21
+  Maven: org.jetbrains.kotlin:kotlin-stdlib:1.8.21
+  Maven: org.jetbrains.kotlin:kotlin-stdlib-common:1.8.21
+  Maven: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.21
+  Maven: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.21
+  Maven: org.jetbrains.kotlin:kotlin-test:1.8.21
+  Maven: org.jetbrains.kotlin:kotlin-test-junit5:1.5.10
+  Maven: org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.6.4
+  Maven: org.jetbrains.kotlinx:kotlinx-coroutines-reactive:1.6.4
+  Maven: org.jetbrains.kotlinx:kotlinx-coroutines-reactor:1.6.4
+  Maven: org.jetbrains:annotations:13.0
+  Maven: org.junit.jupiter:junit-jupiter:5.5.2
+  Maven: org.junit.jupiter:junit-jupiter-api:5.5.2
+  Maven: org.junit.jupiter:junit-jupiter-engine:5.5.2
+  Maven: org.junit.jupiter:junit-jupiter-params:5.5.2
+  Maven: org.junit.platform:junit-platform-commons:1.5.2
+  Maven: org.junit.platform:junit-platform-engine:1.5.2
+  Maven: org.latencyutils:LatencyUtils:2.0.3
+  Maven: org.lz4:lz4-java:1.8.0
+  Maven: org.mockito.kotlin:mockito-kotlin:4.0.0
+  Maven: org.mockito:mockito-core:4.5.1
+  Maven: org.mockito:mockito-junit-jupiter:4.5.1
+  Maven: org.mongodb:bson:4.6.1
+  Maven: org.mongodb:bson-record-codec:4.6.1
+  Maven: org.mongodb:mongodb-driver-core:4.6.1
+  Maven: org.mongodb:mongodb-driver-sync:4.6.1
+  Maven: org.objenesis:objenesis:3.2
+  Maven: org.opentest4j:opentest4j:1.2.0
+  Maven: org.ow2.asm:asm:9.1
+  Maven: org.reactivestreams:reactive-streams:1.0.4
+  Maven: org.rocksdb:rocksdbjni:6.22.1.1
+  Maven: org.scala-lang.modules:scala-collection-compat_2.13:2.4.4
+  Maven: org.scala-lang.modules:scala-java8-compat_2.13:1.0.0
+  Maven: org.scala-lang:scala-library:2.13.6
+  Maven: org.scala-lang:scala-reflect:2.13.6
+  Maven: org.skyscreamer:jsonassert:1.5.1
+  Maven: org.slf4j:jul-to-slf4j:1.7.36
+  Maven: org.slf4j:slf4j-api:1.7.36
+  Maven: org.springdoc:springdoc-openapi-common:1.6.8
+  Maven: org.springdoc:springdoc-openapi-kotlin:1.6.8
+  Maven: org.springdoc:springdoc-openapi-ui:1.6.8
+  Maven: org.springdoc:springdoc-openapi-webmvc-core:1.6.8
+  Maven: org.springframework.boot:spring-boot:2.7.7
+  Maven: org.springframework.boot:spring-boot-actuator:2.7.7
+  Maven: org.springframework.boot:spring-boot-actuator-autoconfigure:2.7.7
+  Maven: org.springframework.boot:spring-boot-autoconfigure:2.7.7
+  Maven: org.springframework.boot:spring-boot-starter:2.7.7
+  Maven: org.springframework.boot:spring-boot-starter-actuator:2.7.7
+  Maven: org.springframework.boot:spring-boot-starter-data-mongodb:2.7.7
+  Maven: org.springframework.boot:spring-boot-starter-json:2.7.7
+  Maven: org.springframework.boot:spring-boot-starter-logging:2.7.7
+  Maven: org.springframework.boot:spring-boot-starter-reactor-netty:2.7.7
+  Maven: org.springframework.boot:spring-boot-starter-security:2.7.7
+  Maven: org.springframework.boot:spring-boot-starter-test:2.7.7
+  Maven: org.springframework.boot:spring-boot-starter-tomcat:2.7.7
+  Maven: org.springframework.boot:spring-boot-starter-web:2.7.7
+  Maven: org.springframework.boot:spring-boot-starter-webflux:2.7.7
+  Maven: org.springframework.boot:spring-boot-test:2.7.7
+  Maven: org.springframework.boot:spring-boot-test-autoconfigure:2.7.7
+  Maven: org.springframework.data:spring-data-commons:2.7.6
+  Maven: org.springframework.data:spring-data-mongodb:3.4.6
+  Maven: org.springframework.kafka:spring-kafka:2.8.11
+  Maven: org.springframework.kafka:spring-kafka-test:2.8.11
+  Maven: org.springframework.retry:spring-retry:1.3.4
+  Maven: org.springframework.security:spring-security-config:5.7.6
+  Maven: org.springframework.security:spring-security-core:5.7.6
+  Maven: org.springframework.security:spring-security-crypto:5.7.6
+  Maven: org.springframework.security:spring-security-web:5.7.6
+  Maven: org.springframework:spring-aop:5.3.24
+  Maven: org.springframework:spring-beans:5.3.24
+  Maven: org.springframework:spring-context:5.3.24
+  Maven: org.springframework:spring-core:5.3.24
+  Maven: org.springframework:spring-expression:5.3.24
+  Maven: org.springframework:spring-jcl:5.3.24
+  Maven: org.springframework:spring-messaging:5.3.24
+  Maven: org.springframework:spring-test:5.3.24
+  Maven: org.springframework:spring-tx:5.3.24
+  Maven: org.springframework:spring-web:5.3.24
+  Maven: org.springframework:spring-webflux:5.3.24
+  Maven: org.springframework:spring-webmvc:5.3.24
+  Maven: org.webjars:swagger-ui:4.10.3
+  Maven: org.webjars:webjars-locator-core:0.50
+  Maven: org.xerial.snappy:snappy-java:1.1.8.4
+  Maven: org.xmlunit:xmlunit-core:2.9.0
+  Maven: org.yaml:snakeyaml:1.30
+Scratches and Consoles
+  Extensions
+  Scratches
+    generated-requests.http
+    scratch.java
+    scratch_1.kts
+    scratch_2.kts
+    scratch_3.kts
+    scratch_4.kts
+    scratch_5.kts
+    scratch_6.kts
+    scratch_7.java
+    scratch_8.kts
+    scratch_9.py
+    scratch_10.kts

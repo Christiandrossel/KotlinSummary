@@ -1,0 +1,1603 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<collection xmlns="http://www.loc.gov/MARC21/slim">
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">1698352631</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.965</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Kunstgeschichte</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">1698354576</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.966</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Mehr Lebenskraft</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">485933394</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.966</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Spanisch für Anfänger 1.1 (A1)</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">485933166</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.966</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Englische Grammatik (B1 - B2)</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">485933526</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.966</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Deutsche Grammatik (A2)</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">485933130</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.966</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Business Englisch (B1 - B2)</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">1698352566</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.967</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Politische Philosophie (Audio)</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">1698352834</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.967</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Ethik</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">485933454</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.967</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Spanisch für die Mittelstufe (B1)</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">1698352709</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.967</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Soziologie (Audio)</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">485933262</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.967</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Business English: Socializing &amp; Small Talk (B2 - C1)</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">1364323266</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.967</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Französisch für Anfänger A 1.2 (A1)</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">1698354520</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.967</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Female Leadership: Perspectives</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">1883511495</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.967</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Achtsamkeit</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">1698353773</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.967</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Psychologie der Führung Audio (Audio)</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">485933442</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.967</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Spanisch für die Hotel- und Toursimusbranche (A2 - B1)</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">485933466</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.968</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Deutsch für Anfänger 1.1 (A1)</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">1698354294</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.968</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Psychologie der Führung: Das Team</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">1698353193</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.968</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">How to Boost Your Physical and Mental Energy</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">1698353135</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.968</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Klassische Musik (Audio)</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">1698353839</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.968</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Künstliche Intelligenz</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">1698354219</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.968</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Zuversicht</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">1698352497</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.968</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Archäologie (Audio)</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">1698354490</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.968</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Female Leadership: Potential</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">1698352676</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.968</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Geschichte (Audio)</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">1698352621</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.968</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Islam (Audio)</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">485933238</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.968</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Business English: Negotiations (B2 - C1)</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">1698353250</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.969</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">The Secrets of Mental Math</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">1698352579</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.969</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Islam</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">1698352752</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.969</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Psychologie (Audio)</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">1698353337</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.969</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Rhetorik (Audio)</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">1698354260</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.969</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Agile Teamwork</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">1698354374</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.969</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Purpose</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">1698353903</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.969</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Interkulturelle Kompetenz</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">1698353151</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.970</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Music and the Brain</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">1698352789</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.970</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Politik (Audio)</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">1698353384</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.970</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Digitale Revolution</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">1698353289</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.970</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">The Everyday Gourmet</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">1698353462</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.970</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Wirtschaftspsychologie</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">1698353529</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.970</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Überzeugend kommunizieren</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">1883511455</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.970</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Psychologie der Verhandlung</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">1883511505</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.970</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Kreativität</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">1698353869</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.970</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Perspektiven des Humanismus</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">1698354554</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.971</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Gut entscheiden</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">1698353812</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.971</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Angewandte Fotografie</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">485933286</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.971</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Französischer Lernkrimi "Le Retour du Chat masqué" (A1 - A2)</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">1698352801</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.971</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Mathematik</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">485933430</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.971</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Spanisch für fortgeschrittene Anfänger 2.2 (A2)</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">1698353786</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.971</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Entwicklungspsychologie</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">1698354537</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.971</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Female Leadership: Equal Rights</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">1698353567</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.971</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Persönlichkeit (Audio)</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">1698353406</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.971</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Digitale Revolution (Audio)</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">1698352987</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.972</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Unser Gehirn</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">485933358</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.972</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Italienisch - Mittelstufe 3.1 (B1)</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">840288811</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.972</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Französisch für fortgeschrittene Anfänger A 2.1 (A2)</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">1698354337</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.972</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Psychologie der Führung: Das Individuum</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">1698353665</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.972</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Richtig Karriere machen</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">485933562</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.972</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Deutsch für die Mittelstufe 3.2 (B1)</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">1883511535</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.972</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">ZEIT Wochenmarkt Kochkurs</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">1698353968</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.972</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Remote work</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">1698354195</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.972</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Nachhaltigkeit</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">1698353986</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.973</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Diversity &amp; Inclusion</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">1698353314</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.973</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Rhetorik</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">485933094</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.973</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Englisch 3 - Untere Mittelstufe (B1)</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">1698354417</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.973</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Female Leadership: Karriere</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">1698353930</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.973</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Homeoffice</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">1698352541</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.973</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Politische Philosophie</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">1883511525</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.973</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Creativity</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">485933106</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.973</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Englisch 4 - Mittelstufe (B2)</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">1698354280</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.973</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Arbeitsrecht</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">1883511515</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.973</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Mixed Leadership</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">1698353085</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.973</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Astronomie (Audio)</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">485933202</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.974</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Englisch für die Reise (B1 - B2)</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">1698352456</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.974</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Archäologie</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">485933118</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.974</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Englisch 5 - Fortgeschrittene Mittelstufe (B2 - C1)</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">1698353708</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.974</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Design Thinking</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">485933418</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.974</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Spanisch für fortgeschrittene Anfänger 2.1 (A2)</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">1698354242</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.974</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Agile Teamarbeit</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">485933406</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.974</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Spanisch für Anfänger 1.2 (A1)</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">1698353588</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.974</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">DSGVO</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">1698353039</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.975</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Deutsche Weine</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">1364323256</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.975</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Französisch für Anfänger A 1.1 (A1)</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">1698354357</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.975</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Peperoni-Strategie</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">485933502</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.975</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Deutsch für fortgeschrittene Anfänger 2.1 (A2)</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">1883511475</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.975</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Mixed Leadership</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">485933154</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.975</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Englisch for  Hotel &amp; Tourism (B1 - B2)</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">1698353174</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.975</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Mysteries of Modern Physics: Time</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">1698354097</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.975</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Psychology of Leadership: Organizations</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">485933226</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.975</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Business English: Meetings (B2 - C1)</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">1698353611</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.975</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Digital Leadership</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">1698354477</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.976</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Optimismus im Business</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">1698353211</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.976</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">How to Stay Fit as You Age</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">1698352951</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.976</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Philosophie</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">1698352926</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.976</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Literatur (Audio)</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">485933274</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.976</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Technisches Englisch (A2 - B1)</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">485933634</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.976</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Wirtschaftsdeutsch / Deutsch im Beruf (B1 - B2)</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">485933310</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.976</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Italienisch für Anfänger 1.1 (A1)</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">485933382</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.976</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Italienisch 4 - Fortgeschrittene Mittelstufe (B2)</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">1698353757</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.976</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Psychologie der Führung</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">1698353513</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.977</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Verhandeln mit Erfolg (Audio)</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">1698354505</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.977</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Female Leadership: Career</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">485933298</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.977</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Französisch für fortgeschrittene Anfänger (A2)</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">1698352879</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.977</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Evolution</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">1364323246</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.978</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Vokabeltrainer: Französisch für den IT-Bereich (B1-B2)</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">1883511485</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.978</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Hybrides Führen</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">485933610</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.978</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Deutsche Grammatik (B2)</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">1698354144</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.978</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Wirkungsvoll kommunizieren</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">1698352663</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.978</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Geschichte</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">485933346</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.978</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Italienisch für Fortgeschrittene Anfänger 2.2 (A2)</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">485933334</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.978</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Italienisch für Fortgeschrittene Anfänger 2.1 (A2)</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">485933586</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.978</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Deutsch für die fortgeschrittene Mittelstufe 4.1 (B2)</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">485933069</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.978</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Englisch 1 - Anfänger (A1)</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">1698352967</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.979</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Philosophie (Audio)</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">1364323236</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.979</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Vokabeltrainer: Französisch für den Medienbereich (B1-B2)</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">1698353425</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.979</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Journalismus</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">1698352644</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.979</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Weltliteratur</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">485933250</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.979</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Business English: Presentations (B2 - C1)</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">1698352511</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.979</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Ernährung</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">485933598</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.979</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Deutsch für die fortgeschrittene Mittelstufe 4.2 (B2)</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">1698354390</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.979</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Female Leadership: Potenziale</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">485933538</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.979</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Deutsche Aussprache (A2 - B1)</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">485933514</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.979</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Deutsch für fortgeschrittene Anfänger 2.2 (A2)</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">485933370</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.979</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Italienisch - Mittelstufe 3.2 (B1)</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">485933178</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.980</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">English on the Phone (B1 - B2)</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">1698352906</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.980</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Literatur</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">1698354434</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.980</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Female Leadership: Perspektiven</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">1883511465</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.980</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">The Psychology of Negotiation</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">1698353738</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.980</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Intelligenz</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">1698353271</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.980</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Fotografie</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">485933322</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.980</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Italienisch für Anfänger 1.2 (A1)</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">840288821</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.980</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Französisch für fortgeschrittene Anfänger A 2.2 (A2)</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">1698352696</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.980</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Soziologie</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">485933214</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.980</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Business English: Communications (B2 - C1)</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">1698353226</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.980</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">How to Read and Understand Shakespeare</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">1698353639</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.981</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Karriere-Guide</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">1698352768</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.981</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Politik</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">1698354322</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.981</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Psychologie der Führung: Die Organisation</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">485933490</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.981</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Deutsche Grammatik (A1)</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">422344225</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.981</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">LinguaTV</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">1698353691</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.981</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Das Einmaleins für Finanzen</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">485933550</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.981</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Deutsch für die Mittelstufe 3.1 (B1)</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">1698353064</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.981</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Astronomie</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">1698352725</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.981</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Psychologie</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">1698354018</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.981</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Psychology of Leadership: Individuals</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">1364042342</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.981</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Vokabeltrainer: Englisch für den IT-Bereich</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">1698353020</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.981</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Wirtschaft</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">1698354123</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.982</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Psychology of Leadership: Teams</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">1698353361</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.982</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Online Marketing</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">485933478</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.982</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Deutsch für Anfänger 1.2 (A1)</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">1698353550</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.982</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Persönlichkeit</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">485933622</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.982</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Deutsch für Fortgeschrittene 5 (C1)</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">1698352857</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.982</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Ethik (Audio)</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">1698353006</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.982</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Unser Gehirn (Audio)</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">1698354455</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.982</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Female Leadership: Gleichberechtigung</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">1698353446</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.982</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Journalismus (Audio)</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">1698353116</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.982</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Klassische Musik</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">1698353479</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.983</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Verhandeln mit Erfolg</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">485933574</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.983</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Deutsche Grammatik (B1)</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">1698353944</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.983</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Nachhaltigkeit in Unternehmen</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>00000dam a2200000   4500</leader>
+    <controlfield tag="001">485933082</controlfield>
+    <controlfield tag="003">DE-Wi27</controlfield>
+    <controlfield tag="005">20240708020803.989</controlfield>
+    <controlfield tag="008">      s0000       |||||||||||||||||   ||</controlfield>
+    <datafield tag="245" ind1="1" ind2="0">
+      <subfield code="a">Englisch 2 - Fortgeschrittene Anfänger (A2)</subfield>
+    </datafield>
+  </record>
+</collection>

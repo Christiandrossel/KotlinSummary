@@ -1,0 +1,63 @@
+{
+  "patronInformation": {
+    "name": "Christian Drossel",
+    "libraryNumber": null,
+    "accountEmail": "cdrossel@avantgarde-labs.de",
+    "profilePicture": null
+  },
+  "lend": {
+    "current": 3,
+    "max": 10,
+    "hasRemainingContingent": true
+  },
+  "reservation": {
+    "current": 0,
+    "max": 10,
+    "hasRemainingContingent": true
+  },
+  "ereaderCode": "y35Q",
+  "library": {
+    "libraryName": "Stadtbibliothek Stuttgart",
+    "libraryLogo": null
+  },
+  "onleihe": {
+    "onleiheName": "Stadtbibliothek Stuttgart",
+    "onleiheLogo": {
+      "dark": "https://static.onleihe.de/logos/onleihe//664dd93f284a2f3517a0906c/logo-dark.png",
+      "light": "https://static.onleihe.de/logos/onleihe//664dd93f284a2f3517a0906c/logo-light.png",
+      "squareDark": null,
+      "squareLight": null
+    },
+    "theme": "theme-b",
+    "languages": [
+      {
+        "name": "Deutsch",
+        "code": "de_DE",
+        "active": true
+      },
+      {
+        "name": "Englisch",
+        "code": "en_GB",
+        "active": true
+      }
+    ],
+    "socialMediaLinks": {
+      "facebook": null,
+      "xPlatform": null,
+      "instagram": null,
+      "youtube": null,
+      "tiktok": null
+    },
+    "additionalLinks": []
+  },
+  "lendRestrictions": {
+    "E_BOOK": 604800.000000000,
+    "E_AUDIO": 604800.000000000,
+    "E_MUSIC": 604800.000000000,
+    "E_LEARNING": 1209600.000000000,
+    "E_MAGAZINE": 86400.000000000,
+    "E_PAPER": 3600.000000000,
+    "E_VIDEO": 604800.000000000,
+    "BUNDLE": 1209600.000000000
+  }
+}

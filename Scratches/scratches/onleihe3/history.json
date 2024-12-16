@@ -1,0 +1,806 @@
+{
+  "page": 1,
+  "size": 50,
+  "totalItems": 3,
+  "totalPages": 1,
+  "content": [
+    {
+      "historyItem": {
+        "lendId": "lend-ha3",
+        "userId": "active-user",
+        "profileId": "master",
+        "productId": "eMusic-2",
+        "startDate": "2022-05-22T04:06:27.443Z",
+        "endDate": "2022-06-19T04:06:27.445Z",
+        "mediaType": "E_MUSIC",
+        "createdAt": null,
+        "updated": "2024-04-03T06:54:48.771Z"
+      },
+      "productDetails": {
+        "productId": "eMusic-2",
+        "product": {
+          "id": "eMusic-2",
+          "externalId": "external-eMusic-2",
+          "productIdentifiers": [],
+          "mediaType": "E_MUSIC",
+          "containerIds": [],
+          "includes": [],
+          "isContainer": false,
+          "title": "Jackie Wilson",
+          "subTitle": "greatest hits",
+          "language": [
+            "ger"
+          ],
+          "languageName": [
+            "Deutsch"
+          ],
+          "content": "",
+          "categories": [
+            {
+              "id": "category-10",
+              "name": "Musik",
+              "description": "Musik Kategorie"
+            },
+            {
+              "id": "category-11",
+              "name": "Musikgenres",
+              "description": "Musikgenres Kategorie"
+            },
+            {
+              "id": "category-32",
+              "name": "Blues",
+              "description": "Blues Kategorie"
+            }
+          ],
+          "themaCategories": [
+            {
+              "id": "AVLP",
+              "values": {
+                "de": {
+                  "path": "Kunst|Musik|Musik: Stile und Gattungen|Unterhaltungsmusik, Popmusik",
+                  "leaf": "Unterhaltungsmusik, Popmusik"
+                },
+                "en": {
+                  "path": "The Arts|Music|Music: styles and genres|Popular music",
+                  "leaf": "Popular music"
+                }
+              }
+            }
+          ],
+          "series": [],
+          "authors": [
+            {
+              "firstName": "Jackie",
+              "lastName": "Wilson",
+              "order": 1
+            }
+          ],
+          "translators": [],
+          "publisher": "ZYX Music",
+          "narrators": [],
+          "extent": [],
+          "format": [
+            "E_AUDIO"
+          ],
+          "filesize": {
+            "value": 2431,
+            "unit": "KB"
+          },
+          "inventoryDate": null,
+          "publicationDate": "2023-08-13T06:08:17.707Z",
+          "covers": [
+            {
+              "type": "IMAGE_SMALL",
+              "uri": "https://static.onleihe.de/images/zyx/20130710/ZYX56043-2/imZYX56043-2s.jpg",
+              "size": 0
+            }
+          ],
+          "supplierContent": [
+            {
+              "id": "external-test-supplier",
+              "name": "Test Supplier",
+              "previews": [
+                {
+                  "mimeType": "PDF",
+                  "uri": "https://www.onleihe.de/dresden/frontend/preview,0-0-361352141-600-0-0-0-0-0-0-0.html",
+                  "size": 0
+                },
+                {
+                  "mimeType": "MP3",
+                  "uri": "https://www.onleihe.de/dresden/frontend/preview,0-0-367321107-600-0-0-0-0-0-0-0.html",
+                  "size": 1241
+                }
+              ],
+              "drmInformation": [
+                {
+                  "drmSystem": "CASTLABS",
+                  "specificId": "specific_id",
+                  "fileSize": 2431,
+                  "uri": "castlabs/uri",
+                  "mimeType": "MP3",
+                  "tracks": null,
+                  "variantId": 1
+                }
+              ]
+            }
+          ]
+        },
+        "status": {
+          "availabilityInformation": {
+            "unlimited": false,
+            "availability": 0,
+            "isAvailable": false
+          },
+          "activeReservations": 1,
+          "maxLendingDuration": 1209600,
+          "nextAvailabilityDate": null,
+          "reservable": true
+        },
+        "userInformation": {
+          "reservation": null,
+          "positionInQueue": null,
+          "lend": null,
+          "lendExtendable": false,
+          "productOnWishlist": true,
+          "productOnWishlistPinned": false,
+          "lendCount": 20,
+          "reservationCount": 7,
+          "progress": {
+            "specific_id": {
+              "timestamp": "2024-01-30T12:56:09.175Z",
+              "position": 0,
+              "progressInPercentage": 0,
+              "locationObject": null
+            }
+          },
+          "userRating": {
+            "userId": "active-user",
+            "onleiheId": "onleihe-1",
+            "libraryId": "library-1",
+            "productId": "eMusic-2",
+            "score": 0,
+            "comment": "",
+            "updated": "2024-04-03T07:53:07.522461272Z"
+          },
+          "hasReservation": false,
+          "hasLend": false
+        },
+        "productRating": {
+          "numberOfRatings": 0,
+          "averageRating": 0,
+          "userComment": []
+        },
+        "recommendations": null,
+        "job": null,
+        "userAction": [
+          {
+            "actionKey": "LEND",
+            "performable": false,
+            "messages": [
+              {
+                "key": "not-available-for-lend",
+                "message": "product not available for lend"
+              },
+              {
+                "key": "max-number-of-lend",
+                "message": "reached max number of active lends"
+              }
+            ]
+          },
+          {
+            "actionKey": "EXTEND_LEND",
+            "performable": false,
+            "messages": [
+              {
+                "key": "not-lend",
+                "message": "product is not lend"
+              },
+              {
+                "key": "lend-not-extandable",
+                "message": "lend not extendable due to failed condition check"
+              }
+            ]
+          },
+          {
+            "actionKey": "RESERVE",
+            "performable": false,
+            "messages": [
+              {
+                "key": "max-number-of-reservations",
+                "message": "reached max number of reservations per user"
+              }
+            ]
+          },
+          {
+            "actionKey": "EARLY_RETURN",
+            "performable": false,
+            "messages": [
+              {
+                "key": "not-lend",
+                "message": "product is not lend"
+              }
+            ]
+          },
+          {
+            "actionKey": "WISHLIST",
+            "performable": false,
+            "messages": [
+              {
+                "key": "product-on-wishlist",
+                "message": "product is already on whishlist"
+              }
+            ]
+          },
+          {
+            "actionKey": "REMOVE_WISHLIST",
+            "performable": true,
+            "messages": []
+          },
+          {
+            "actionKey": "ACCEPT_RESERVATION",
+            "performable": false,
+            "messages": [
+              {
+                "key": "no-reservations-available",
+                "message": "no reservation available for product"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "historyItem": {
+        "lendId": "lend-ha1",
+        "userId": "active-user",
+        "profileId": "master",
+        "productId": "eVideo-1",
+        "startDate": "2022-03-31T20:06:15.310Z",
+        "endDate": "2022-04-28T20:06:15.313Z",
+        "mediaType": "E_VIDEO",
+        "createdAt": null,
+        "updated": "2024-04-03T06:54:48.758Z"
+      },
+      "productDetails": {
+        "productId": "eVideo-1",
+        "product": {
+          "id": "eVideo-1",
+          "externalId": "external-eVideo-1",
+          "productIdentifiers": [],
+          "mediaType": "E_VIDEO",
+          "containerIds": [],
+          "includes": [],
+          "isContainer": false,
+          "title": "Die Olsenbande schlägt wieder zu",
+          "subTitle": "Die Olsenbande ; Folge 9",
+          "language": [
+            "ger"
+          ],
+          "languageName": [
+            "Deutsch"
+          ],
+          "content": "ORIGINAL DEFA SYNCRONISATION. 13-teilige Kult-Spielfilmserie in der Original DEFA-Synchronisation. Egon Olsen hat im Gefängnis wieder einmal einen \"todsicheren\" Tip bekommen.",
+          "categories": [
+            {
+              "id": "category-21",
+              "name": "Belletristik & Unterhaltung",
+              "description": "Belletristik & Unterhaltung Kategorie"
+            },
+            {
+              "id": "category-22",
+              "name": "Romane & Erzählungen",
+              "description": "Romane & Erzählungen Kategorie"
+            },
+            {
+              "id": "category-23",
+              "name": "Humor",
+              "description": "Humor Kategorie"
+            }
+          ],
+          "themaCategories": [
+            {
+              "id": "FFK",
+              "values": {
+                "de": {
+                  "path": "Belletristik und verwandte Gebiete|Kriminalromane und Mystery|Kriminalromane und Mystery: Humor",
+                  "leaf": "Kriminalromane und Mystery: Humor"
+                },
+                "en": {
+                  "path": "Fiction and Related items|Crime and mystery fiction|Comic (humorous) crime and mystery",
+                  "leaf": "Comic (humorous) crime and mystery"
+                }
+              }
+            }
+          ],
+          "series": [],
+          "authors": [
+            {
+              "firstName": "Morten",
+              "lastName": "Grunwald",
+              "order": 1
+            },
+            {
+              "firstName": "Ove",
+              "lastName": "Sprogøe",
+              "order": 2
+            },
+            {
+              "firstName": "Erik",
+              "lastName": "Balling",
+              "order": 3
+            }
+          ],
+          "translators": [],
+          "publisher": "ZYX Music",
+          "narrators": [],
+          "extent": [],
+          "format": [
+            "E_PUB"
+          ],
+          "filesize": {
+            "value": 2431,
+            "unit": "KB"
+          },
+          "inventoryDate": null,
+          "publicationDate": "2024-01-27T06:08:17.707Z",
+          "covers": [
+            {
+              "type": "IMAGE_SMALL",
+              "uri": "https://static.onleihe.de/images/zyx/20121207/MUS5011-2/imMUS5011-2s.jpg",
+              "size": 0
+            }
+          ],
+          "supplierContent": [
+            {
+              "id": "external-test-supplier",
+              "name": "Test Supplier",
+              "previews": [
+                {
+                  "mimeType": "PDF",
+                  "uri": "https://www.onleihe.de/dresden/frontend/preview,0-0-359034642-600-0-0-0-0-0-0-0.html",
+                  "size": 0
+                },
+                {
+                  "mimeType": "MP4",
+                  "uri": "https://www.onleihe.de/dresden/frontend/preview,0-0-367321107-600-0-0-0-0-0-0-0.html",
+                  "size": 1241
+                }
+              ],
+              "drmInformation": [
+                {
+                  "drmSystem": "CASTLABS",
+                  "specificId": "specific_id",
+                  "fileSize": 2431,
+                  "uri": "castlabs/uri",
+                  "mimeType": "MP4",
+                  "tracks": null,
+                  "variantId": 1
+                }
+              ]
+            }
+          ]
+        },
+        "status": {
+          "availabilityInformation": {
+            "unlimited": false,
+            "availability": 9,
+            "isAvailable": true
+          },
+          "activeReservations": 0,
+          "maxLendingDuration": 1209600,
+          "nextAvailabilityDate": "2024-04-03T07:53:07.397112885Z",
+          "reservable": false
+        },
+        "userInformation": {
+          "reservation": null,
+          "positionInQueue": null,
+          "lend": null,
+          "lendExtendable": false,
+          "productOnWishlist": false,
+          "productOnWishlistPinned": false,
+          "lendCount": 20,
+          "reservationCount": 7,
+          "progress": {
+            "specific_id": {
+              "timestamp": "2024-01-30T12:56:09.175Z",
+              "position": 0,
+              "progressInPercentage": 0,
+              "locationObject": null
+            }
+          },
+          "userRating": {
+            "userId": "active-user",
+            "onleiheId": "onleihe-1",
+            "libraryId": "library-1",
+            "productId": "eVideo-1",
+            "score": 0,
+            "comment": "",
+            "updated": "2024-04-03T07:53:07.569653020Z"
+          },
+          "hasReservation": false,
+          "hasLend": false
+        },
+        "productRating": {
+          "numberOfRatings": 0,
+          "averageRating": 0,
+          "userComment": []
+        },
+        "recommendations": null,
+        "job": null,
+        "userAction": [
+          {
+            "actionKey": "LEND",
+            "performable": false,
+            "messages": [
+              {
+                "key": "max-number-of-lend",
+                "message": "reached max number of active lends"
+              }
+            ]
+          },
+          {
+            "actionKey": "EXTEND_LEND",
+            "performable": false,
+            "messages": [
+              {
+                "key": "not-lend",
+                "message": "product is not lend"
+              },
+              {
+                "key": "lend-not-extandable",
+                "message": "lend not extendable due to failed condition check"
+              }
+            ]
+          },
+          {
+            "actionKey": "RESERVE",
+            "performable": false,
+            "messages": [
+              {
+                "key": "max-number-of-reservations",
+                "message": "reached max number of reservations per user"
+              },
+              {
+                "key": "available-for-lend",
+                "message": "product cannot be reserved as it is available and can be lend."
+              }
+            ]
+          },
+          {
+            "actionKey": "EARLY_RETURN",
+            "performable": false,
+            "messages": [
+              {
+                "key": "not-lend",
+                "message": "product is not lend"
+              }
+            ]
+          },
+          {
+            "actionKey": "WISHLIST",
+            "performable": true,
+            "messages": []
+          },
+          {
+            "actionKey": "REMOVE_WISHLIST",
+            "performable": false,
+            "messages": [
+              {
+                "key": "product-not-on-wishlist",
+                "message": "product is not no wishlist"
+              }
+            ]
+          },
+          {
+            "actionKey": "ACCEPT_RESERVATION",
+            "performable": false,
+            "messages": [
+              {
+                "key": "no-reservations-available",
+                "message": "no reservation available for product"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "historyItem": {
+        "lendId": "lend-ha2",
+        "userId": "active-user",
+        "profileId": "master",
+        "productId": "eMusic-1",
+        "startDate": "2022-03-31T20:06:15.310Z",
+        "endDate": "2022-04-28T20:06:15.313Z",
+        "mediaType": "E_MUSIC",
+        "createdAt": null,
+        "updated": "2024-04-03T06:54:48.764Z"
+      },
+      "productDetails": {
+        "productId": "eMusic-1",
+        "product": {
+          "id": "eMusic-1",
+          "externalId": "external-eMusic-1",
+          "productIdentifiers": [],
+          "mediaType": "E_MUSIC",
+          "containerIds": [],
+          "includes": [],
+          "isContainer": false,
+          "title": "Schlager & Discofox",
+          "subTitle": "Diamonds",
+          "language": [
+            "ger"
+          ],
+          "languageName": [
+            "Deutsch"
+          ],
+          "content": "Unter Linux arbeiten Sie am effektivsten in einer Shell, also einer textbasierten Befehlszeile. Hierzu müssen Sie die Befehle der Shell beherrschen und die Shell-Umgebung anpassen können. Dieser Kurs stellt Ihnen die nötigen Befehle vor, um Dateien und Verzeichnisse zu verwalten, zu kopieren, zu verschieben und zu entfernen.",
+          "categories": [
+            {
+              "id": "category-10",
+              "name": "Musik",
+              "description": "Musik Kategorie"
+            },
+            {
+              "id": "category-11",
+              "name": "Musikgenres",
+              "description": "Musikgenres Kategorie"
+            },
+            {
+              "id": "category-12",
+              "name": "Schlager",
+              "description": "Schlager Kategorie"
+            }
+          ],
+          "themaCategories": [
+            {
+              "id": "AVLP",
+              "values": {
+                "de": {
+                  "path": "Kunst|Musik|Musik: Stile und Gattungen|Unterhaltungsmusik, Popmusik",
+                  "leaf": "Unterhaltungsmusik, Popmusik"
+                },
+                "en": {
+                  "path": "The Arts|Music|Music: styles and genres|Popular music",
+                  "leaf": "Popular music"
+                }
+              }
+            }
+          ],
+          "series": [],
+          "authors": [
+            {
+              "firstName": "Grant",
+              "lastName": "Miller",
+              "order": 1
+            },
+            {
+              "firstName": "Ken",
+              "lastName": "Laszlo",
+              "order": 1
+            },
+            {
+              "firstName": "Valerie",
+              "lastName": "Dore",
+              "order": 1
+            },
+            {
+              "firstName": "Ryan",
+              "lastName": "Paris",
+              "order": 1
+            },
+            {
+              "firstName": "P.",
+              "lastName": "Lion",
+              "order": 1
+            },
+            {
+              "firstName": "Gigi",
+              "lastName": "D'Agostino",
+              "order": 1
+            },
+            {
+              "firstName": "Mario",
+              "lastName": "Piu",
+              "order": 1
+            },
+            {
+              "firstName": "Brian",
+              "lastName": "Ice",
+              "order": 1
+            },
+            {
+              "firstName": "John",
+              "lastName": "Robinson",
+              "order": 1
+            }
+          ],
+          "translators": [],
+          "publisher": "ZYX Music",
+          "narrators": [],
+          "extent": [],
+          "format": [
+            "E_AUDIO"
+          ],
+          "filesize": {
+            "value": 2431,
+            "unit": "KB"
+          },
+          "inventoryDate": null,
+          "publicationDate": "2024-02-18T06:08:17.707Z",
+          "covers": [
+            {
+              "type": "IMAGE_SMALL",
+              "uri": "https://static.onleihe.de/images/zyx/20121207/MUS5011-2/imMUS5011-2s.jpg",
+              "size": 0
+            }
+          ],
+          "supplierContent": [
+            {
+              "id": "external-test-supplier",
+              "name": "Test Supplier",
+              "previews": [
+                {
+                  "mimeType": "PDF",
+                  "uri": "https://www.onleihe.de/dresden/frontend/preview,0-0-359034642-600-0-0-0-0-0-0-0.html",
+                  "size": 0
+                },
+                {
+                  "mimeType": "MP3",
+                  "uri": "https://www.onleihe.de/dresden/frontend/preview,0-0-367321107-600-0-0-0-0-0-0-0.html",
+                  "size": 1241
+                }
+              ],
+              "drmInformation": [
+                {
+                  "drmSystem": "CASTLABS",
+                  "specificId": "specific_id",
+                  "fileSize": 2431,
+                  "uri": "castlabs/uri",
+                  "mimeType": "MP3",
+                  "tracks": null,
+                  "variantId": 1
+                }
+              ]
+            }
+          ]
+        },
+        "status": {
+          "availabilityInformation": {
+            "unlimited": false,
+            "availability": 98,
+            "isAvailable": true
+          },
+          "activeReservations": 0,
+          "maxLendingDuration": 1209600,
+          "nextAvailabilityDate": "2024-04-03T07:53:07.394766708Z",
+          "reservable": false
+        },
+        "userInformation": {
+          "reservation": null,
+          "positionInQueue": null,
+          "lend": {
+            "userId": "active-user",
+            "profileId": "master",
+            "productId": "eMusic-1",
+            "lendId": "lend-a04",
+            "startDate": "2022-11-09T11:37:09.588Z",
+            "endDate": "3022-11-09T11:37:09.588Z",
+            "assets": [
+              {
+                "assetId": "1337",
+                "type": "EPUB"
+              }
+            ],
+            "mediaType": "E_MUSIC"
+          },
+          "lendExtendable": false,
+          "productOnWishlist": false,
+          "productOnWishlistPinned": false,
+          "lendCount": 20,
+          "reservationCount": 7,
+          "progress": {
+            "specific_id": {
+              "timestamp": "2024-01-30T12:56:09.175Z",
+              "position": 0,
+              "progressInPercentage": 0,
+              "locationObject": null
+            }
+          },
+          "userRating": {
+            "userId": "active-user",
+            "onleiheId": "onleihe-1",
+            "libraryId": "library-1",
+            "productId": "eMusic-1",
+            "score": 0,
+            "comment": "",
+            "updated": "2024-04-03T07:53:07.460461282Z"
+          },
+          "hasReservation": false,
+          "hasLend": true
+        },
+        "productRating": {
+          "numberOfRatings": 0,
+          "averageRating": 0,
+          "userComment": []
+        },
+        "recommendations": null,
+        "job": null,
+        "userAction": [
+          {
+            "actionKey": "LEND",
+            "performable": false,
+            "messages": [
+              {
+                "key": "already-lend",
+                "message": "product already lend by user"
+              },
+              {
+                "key": "max-number-of-lend",
+                "message": "reached max number of active lends"
+              }
+            ]
+          },
+          {
+            "actionKey": "EXTEND_LEND",
+            "performable": false,
+            "messages": [
+              {
+                "key": "lend-not-extandable",
+                "message": "lend not extendable due to failed condition check"
+              }
+            ]
+          },
+          {
+            "actionKey": "RESERVE",
+            "performable": false,
+            "messages": [
+              {
+                "key": "already-lend",
+                "message": "product already lend by user"
+              },
+              {
+                "key": "max-number-of-reservations",
+                "message": "reached max number of reservations per user"
+              },
+              {
+                "key": "available-for-lend",
+                "message": "product cannot be reserved as it is available and can be lend."
+              }
+            ]
+          },
+          {
+            "actionKey": "EARLY_RETURN",
+            "performable": true,
+            "messages": []
+          },
+          {
+            "actionKey": "WISHLIST",
+            "performable": true,
+            "messages": []
+          },
+          {
+            "actionKey": "REMOVE_WISHLIST",
+            "performable": false,
+            "messages": [
+              {
+                "key": "product-not-on-wishlist",
+                "message": "product is not no wishlist"
+              }
+            ]
+          },
+          {
+            "actionKey": "ACCEPT_RESERVATION",
+            "performable": false,
+            "messages": [
+              {
+                "key": "no-reservations-available",
+                "message": "no reservation available for product"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

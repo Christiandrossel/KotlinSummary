@@ -1,0 +1,46 @@
+org.springframework.kafka.listener.ListenerExecutionFailedException: Listener method 'public void net.avgl.ekz.onleihe.inventoryapplication.licence_service.connector.inventory.InventoryEventConsumerService.consumeProductInventoryEvents(net.avgl.ekz.onleihe.inventoryevents.inventoryproductevents.ProductInventoryEvent)' threw exception
+at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.decorateException(KafkaMessageListenerContainer.java:2942)
+at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.doInvokeOnMessage(KafkaMessageListenerContainer.java:2887)
+at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.invokeOnMessage(KafkaMessageListenerContainer.java:2854)
+at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.lambda$doInvokeRecordListener$57(KafkaMessageListenerContainer.java:2772)
+at io.micrometer.observation.Observation.lambda$observe$4(Observation.java:544)
+at io.micrometer.observation.Observation.observeWithContext(Observation.java:603)
+at io.micrometer.observation.Observation.observe(Observation.java:544)
+at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.doInvokeRecordListener(KafkaMessageListenerContainer.java:2770)
+at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.doInvokeWithRecords(KafkaMessageListenerContainer.java:2622)
+at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.invokeRecordListener(KafkaMessageListenerContainer.java:2508)
+at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.invokeListener(KafkaMessageListenerContainer.java:2150)
+at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.invokeIfHaveRecords(KafkaMessageListenerContainer.java:1505)
+at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.pollAndInvoke(KafkaMessageListenerContainer.java:1469)
+at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.run(KafkaMessageListenerContainer.java:1344)
+at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(Unknown Source)
+    at java.base/java.lang.Thread.run(Unknown Source)
+    Suppressed: org.springframework.kafka.listener.ListenerExecutionFailedException: Restored Stack Trace
+    at org.springframework.kafka.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:391)
+    at org.springframework.kafka.listener.adapter.RecordMessagingMessageListenerAdapter.onMessage(RecordMessagingMessageListenerAdapter.java:92)
+    at org.springframework.kafka.listener.adapter.RecordMessagingMessageListenerAdapter.onMessage(RecordMessagingMessageListenerAdapter.java:53)
+    at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.doInvokeOnMessage(KafkaMessageListenerContainer.java:2873)
+Caused by: net.avgl.ekz.onleihe.inventoryapplication.product_service.model.ProductNotFoundException: Unable to find product with id 'extendableProduct'
+	at net.avgl.ekz.onleihe.inventoryapplication.product_service.service.product.ProductService.getProduct(ProductService.kt:29)
+	at net.avgl.ekz.onleihe.inventoryapplication.licence_service.service.stock.StockUpdatedEventService.handleStockUpdateEvents(StockUpdatedEventService.kt:52)
+	at net.avgl.ekz.onleihe.inventoryapplication.licence_service.service.stock.StockUpdatedEventService.sendStockUpdatedEvents(StockUpdatedEventService.kt:47)
+	at net.avgl.ekz.onleihe.inventoryapplication.licence_service.connector.inventory.InventoryEventConsumerService.handleStockChange(InventoryEventConsumerService.kt:45)
+	at net.avgl.ekz.onleihe.inventoryapplication.licence_service.connector.inventory.InventoryEventConsumerService.consumeProductInventoryEvents(InventoryEventConsumerService.kt:30)
+	at jdk.internal.reflect.GeneratedMethodAccessor346.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:169)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:119)
+	at org.springframework.kafka.listener.adapter.HandlerAdapter.invoke(HandlerAdapter.java:56)
+	at org.springframework.kafka.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:375)
+	at org.springframework.kafka.listener.adapter.RecordMessagingMessageListenerAdapter.onMessage(RecordMessagingMessageListenerAdapter.java:92)
+	at org.springframework.kafka.listener.adapter.RecordMessagingMessageListenerAdapter.onMessage(RecordMessagingMessageListenerAdapter.java:53)
+	at org.springframework.kafka.listener.KafkaMessageListenerContainer$ListenerConsumer.doInvokeOnMessage(KafkaMessageListenerContainer.java:2873)
+	... 14 more
+
+###
+GET http://localhost/v1/auth/libraries
+
+###
+GET http://localhost/v1/onleihe/{{onleiheId}}/products/{{productId}}/availabilities?
+    userId={{$random.alphanumeric(8)}}

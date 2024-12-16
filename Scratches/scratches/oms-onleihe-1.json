@@ -1,0 +1,122 @@
+{
+  "name": "Test Restriction Onleihe",
+  "state": "ACTIVE",
+  "regionId": "german-region-id",
+  "address": {
+    "street": "Theresienstraße",
+    "houseNumber": "11",
+    "postalCode": "01097",
+    "city": "Dresden"
+  },
+  "contact": {
+    "nameContactPerson": "Contact Person",
+    "phone": "0123456789123",
+    "phone": "0123456789123",
+    "email": "test@email.de",
+    "fax": "012345678123",
+    "homepage": "www.test-homepage.de"
+  },
+  "isGlobalContact": false,
+  "socialMediaLinks": {
+    "facebook": "https://www.facebook.com/ekz.bibliotheksservice",
+    "xPlatform": "https://twitter.com/ekz_bibliothek",
+    "instagram": "https://www.instagram.com/ekz_bibliotheksservice/",
+    "youtube": "https://www.youtube.com/channel/UC4QX0Z4Z2Z0X6Z0Z4Z2Z0X6Q",
+    "tiktok": null
+  },
+  "additionalLinks": [
+    {
+      "title": "Medienwünsche",
+      "iconKey": null,
+      "url": "https://www.ekz.de/media/"
+    },
+    {
+      "title": "Jubiläum",
+      "iconKey": "jubilee",
+      "url": "https://www.ekz.de/jubilaeum/"
+    }
+  ],
+  "settings": {
+    "enabledLanguages": [
+      {
+        "name": "Deutsch",
+        "code": "de_DE",
+        "active": true
+      },
+      {
+        "name": "English",
+        "code": "en_GB",
+        "active": true
+      }
+    ],
+    "selectedTheme": "theme-a",
+    "thumbnail": null,
+    "logoLight": {
+      "filePrefix": null,
+      "originalName": null,
+      "path": null,
+      "publicUrl": "https://storage.googleapis.com/onleihe-files-intern-dev/logos/onleihe/onleihe-1/logo-light.png"
+    },
+    "sponsors": []
+  },
+  "restrictions": {
+    "maxNumberOfActiveLendsPerUser": null,
+    "maxNumberOfReservationsPerUser": null,
+    "maxNumberOfReservations": null,
+    "lendRestrictions": {
+      "E_AUDIO": {
+        "lendAcceptanceDuration": "PT720H",
+        "maxLendingDuration": "PT720H",
+        "lendExtensionDuration": "PT720H",
+        "automaticReservationAcceptance": false
+      },
+      "E_BOOK": {
+        "lendAcceptanceDuration": "PT720H",
+        "maxLendingDuration": "PT720H",
+        "lendExtensionDuration": "PT240H",
+        "automaticReservationAcceptance": false
+      },
+      "E_LEARNING": {
+        "lendAcceptanceDuration": "PT144H",
+        "maxLendingDuration": "PT720H",
+        "lendExtensionDuration": "PT120H",
+        "automaticReservationAcceptance": false
+      },
+      "E_MUSIC": {
+        "lendAcceptanceDuration": "PT144H",
+        "maxLendingDuration": "PT264H",
+        "lendExtensionDuration": "PT720H",
+        "automaticReservationAcceptance": false
+      },
+      "E_MAGAZINE": {
+        "lendAcceptanceDuration": "PT144H",
+        "maxLendingDuration": "PT360H",
+        "lendExtensionDuration": "PT240H",
+        "automaticReservationAcceptance": false
+      },
+      "E_PAPER": {
+        "lendAcceptanceDuration": "PT144H",
+        "maxLendingDuration": "PT264H",
+        "lendExtensionDuration": "PT240H",
+        "automaticReservationAcceptance": false
+      },
+      "E_VIDEO": {
+        "lendAcceptanceDuration": "PT72H",
+        "maxLendingDuration": "PT408H",
+        "lendExtensionDuration": "PT264H",
+        "automaticReservationAcceptance": false
+      }
+    },
+    "defaultLendRestrictions": {
+      "lendAcceptanceDuration": "PT240H",
+      "maxLendingDuration": "PT360H",
+      "lendExtensionDuration": "PT264H",
+      "automaticReservationAcceptance": false
+    }
+  },
+  "hasLibrariesELearningEnabled": true,
+  "eLearningSettings": {
+    "librariesWithEnabledELearning": []
+  },
+  "currentLegalDocuments": {}
+}

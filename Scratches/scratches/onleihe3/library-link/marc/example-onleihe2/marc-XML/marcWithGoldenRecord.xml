@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<collection xmlns="http://www.loc.gov/MARC21/slim"
+            xsi:schemaLocation="http://www.loc.gov/MARC21/slim https://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <record>
+        <leader>00000dama 2200084 450</leader>
+        <controlfield tag="001">1123456677</controlfield>
+        <controlfield tag="003">DE-Wi27</controlfield>
+        <controlfield tag="005">20240905020434.745</controlfield>
+        <controlfield tag="008">s0000 ||||||||||||||||| ||</controlfield>
+        <datafield ind2=" " ind1=" " tag="035">
+            <subfield code="a">(DE-Wi27)golden-record-id-canceledProduct</subfield>
+        </datafield>
+    </record>
+    <record>
+        <leader>00000dama 2200084 450</leader>
+        <controlfield tag="001">1122334455</controlfield>
+        <controlfield tag="003">DE-Wi27</controlfield>
+        <controlfield tag="005">20240905020434.768</controlfield>
+        <controlfield tag="008">s0000 ||||||||||||||||| ||</controlfield>
+        <datafield ind2=" " ind1=" " tag="035">
+            <subfield code="a">(DE-Wi27)golden-record-id-maculatedProduct</subfield>
+        </datafield>
+    </record>
+</collection>

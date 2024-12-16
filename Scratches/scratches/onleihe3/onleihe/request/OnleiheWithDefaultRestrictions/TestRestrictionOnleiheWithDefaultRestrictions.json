@@ -1,0 +1,86 @@
+{
+  "name": "Test Restriction Onleihe",
+  "state": "ACTIVE",
+  "regionId": "german-region-id",
+  "address": {
+    "street": "Theresienstraße",
+    "houseNumber": "11",
+    "postalCode": "01097",
+    "city": "Dresden"
+  },
+  "contact": {
+    "nameContactPerson": "Contact Person",
+    "phone": "0123456789123",
+    "phone": "0123456789123",
+    "email": "test@email.de",
+    "fax": "012345678123",
+    "homepage": "www.test-homepage.de"
+  },
+  "isGlobalContact": false,
+  "socialMediaLinks": {
+    "facebook": "https://www.facebook.com/ekz.bibliotheksservice",
+    "xPlatform": "https://twitter.com/ekz_bibliothek",
+    "instagram": "https://www.instagram.com/ekz_bibliotheksservice/",
+    "youtube": "https://www.youtube.com/channel/UC4QX0Z4Z2Z0X6Z0Z4Z2Z0X6Q",
+    "tiktok": null
+  },
+  "additionalLinks": [
+    {
+      "title": "Medienwünsche",
+      "iconKey": null,
+      "url": "https://www.ekz.de/media/"
+    },
+    {
+      "title": "Jubiläum",
+      "iconKey": "jubilee",
+      "url": "https://www.ekz.de/jubilaeum/"
+    }
+  ],
+  "settings": {
+    "enabledLanguages": [
+      {
+        "name": "Deutsch",
+        "code": "de_DE",
+        "active": true
+      },
+      {
+        "name": "English",
+        "code": "en_GB",
+        "active": true
+      }
+    ],
+    "selectedTheme": "theme-a",
+    "thumbnail": null,
+    "logoLight": {
+      "filePrefix": null,
+      "originalName": null,
+      "path": null,
+      "publicUrl": "https://storage.googleapis.com/onleihe-files-intern-dev/logos/onleihe/onleihe-1/logo-light.png"
+    },
+    "sponsors": []
+  },
+  "restrictions": {
+    "maxNumberOfActiveLendsPerUser": null,
+    "maxNumberOfReservationsPerUser": null,
+    "lendRestrictions": {
+      "E_AUDIO": {
+        "lendAcceptanceDuration": null,
+        "maxLendingDuration": null,
+        "lendExtensionDuration": null,
+        "automaticReservationAcceptance": false
+      }
+    },
+    "defaultLendRestrictions": {
+      "lendAcceptanceDuration": "PT240H",
+      "maxLendingDuration": "PT360H",
+      "lendExtensionDuration": "PT264H",
+      "automaticReservationAcceptance": false
+    },
+    "maxNumberOfReservations": null
+  },
+  "hasLibrariesELearningEnabled": true,
+  "eLearningSettings": {
+    "librariesWithEnabledELearning": []
+  },
+  "currentLegalDocuments": {}
+}

@@ -1,0 +1,7 @@
+### Get product details
+@environment=prod
+GET {{host}}/v1/onleihe/{{onleiheId}}/products/{{productId}}/availabilities?
+    userId={{userId}}
+Authorization: Basic {{username}}:{{password}}
+
+<> 2024-11-27T123613.500.json

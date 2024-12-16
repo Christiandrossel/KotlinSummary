@@ -1,0 +1,8 @@
+### Get product details
+@env = local
+@host = http://localhost:8080
+GET {{host}}/v2/pages/product-details/{{productId}}?
+    onleiheId={{onleiheId}}&
+    libraryId={{libraryId}}&
+    userId={{userId}}&
+    profileId={{profileId}}

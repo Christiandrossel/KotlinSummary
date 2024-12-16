@@ -1,0 +1,23 @@
+{
+  "_id": {
+    "$oid": "655625d829dc193e3ed83b63"
+  },
+  "supplierContent": [
+    {
+      "drmInformation": [
+        {
+          "drmSystem": "ACS",
+          "specificId": "5593dd44-9c34-482a-be03-53f70415de44"
+        },
+        {
+          "drmSystem": "CARE",
+          "specificId": "2fe54775eeeb277419a9c090d6554b19b7746d9a31884895678aa0ddd9d0a83c"
+        },
+        {
+          "drmSystem": "CASTLABS",
+          "specificId": "65560aa8d01a150a76ed86fa_1700142555588"
+        }
+      ]
+    }
+  ]
+}

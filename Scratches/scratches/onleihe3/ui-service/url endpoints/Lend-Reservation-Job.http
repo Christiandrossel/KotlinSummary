@@ -1,0 +1,13 @@
+### GET job from user
+GET {{host}}/v1/users/{{userId}}/profiles/{{profileId}}/jobs/{{jobId}}
+
+### Create Lend
+POST {{host}}/v2/onleihe/{{onleiheId}}/library/{{libraryId}}/users/{{userId}}/profiles/{{profileId}}/lends
+Content-Type: application/json
+
+{
+  "productId": "{{productId}}"
+}
+
+### GET my account
+GET {{host}}/v1/library/{{libraryId}}/my-account?userId={{$random.alphanumeric(8)}}

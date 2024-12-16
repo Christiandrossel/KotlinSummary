@@ -1,0 +1,453 @@
+{
+  "page": 1,
+  "size": 50,
+  "totalItems": 2,
+  "totalPages": 1,
+  "content": [
+    {
+      "productId": "eMagazine-2_9",
+      "product": {
+        "id": "eMagazine-2_9",
+        "externalId": "external-eMagazine-2_9",
+        "productIdentifiers": [
+          {
+            "identifierType": "ISSN",
+            "identifier": "1438-9339"
+          }
+        ],
+        "mediaType": "E_MAGAZINE",
+        "containerIds": [
+          "eMagazine-2"
+        ],
+        "includes": [],
+        "isContainer": false,
+        "title": "brand eins",
+        "subTitle": "(07/2022)",
+        "language": [
+          "ger"
+        ],
+        "languageName": [
+          "Deutsch"
+        ],
+        "content": "Allgemeines Magazine",
+        "categories": [
+          {
+            "id": "category-1",
+            "name": "Sachmedien & Ratgeber",
+            "description": "Sachmedien & Ratgeber Kategorie"
+          },
+          {
+            "id": "category-17",
+            "name": "Allgemeines",
+            "description": "Allgemeines Kategorie"
+          },
+          {
+            "id": "category-18",
+            "name": "Wirtschaft & Unternehmen",
+            "description": "Wirtschaft & Unternehmen Kategorie"
+          }
+        ],
+        "themaCategories": [
+          {
+            "id": "KJBX",
+            "values": {
+              "de": {
+                "path": "Wirtschaftswissenschaft, Finanzen, Betriebswirtschaft und Management|Betriebswirtschaft und Management|Betriebswirtschaftslehre, allgemein|Betriebswirtschaft und Management: Lehrbücher, Handbücher",
+                "leaf": "Betriebswirtschaft und Management: Lehrbücher, Handbücher"
+              },
+              "en": {
+                "path": "Economics, Finance, Business and Management|Business and Management|Business studies: general|Business and management: study and revision guides",
+                "leaf": "Business and management: study and revision guides"
+              }
+            }
+          }
+        ],
+        "series": [],
+        "authors": [],
+        "translators": [],
+        "publisher": "Brand-Eins-Verlag <Hamburg>",
+        "narrators": [],
+        "extent": [],
+        "format": [
+          "E_PUB"
+        ],
+        "filesize": {
+          "value": 2431,
+          "unit": "KB"
+        },
+        "inventoryDate": null,
+        "publicationDate": "2024-02-25T07:30:12.216Z",
+        "covers": [
+          {
+            "type": "IMAGE_SMALL",
+            "uri": "https://static.onleihe.de/images/brandeins/20220624/brand_eins_b1_07-22/imbrand_eins_b1_07-22s.jpg",
+            "size": 0
+          }
+        ],
+        "supplierContent": [
+          {
+            "id": "external-test-supplier",
+            "name": "Test Supplier",
+            "previews": [
+              {
+                "mimeType": "PDF",
+                "uri": "https://www.onleihe.de/dresden/frontend/preview,0-0-367321107-600-0-0-0-0-0-0-0.html",
+                "size": 0
+              },
+              {
+                "mimeType": "EPUB",
+                "uri": "https://www.onleihe.de/dresden/frontend/preview,0-0-367321107-600-0-0-0-0-0-0-0.html",
+                "size": 1241
+              }
+            ],
+            "drmInformation": [
+              {
+                "drmSystem": "CASTLABS",
+                "specificId": "specific_id",
+                "fileSize": 2431,
+                "uri": "castlabs/uri",
+                "mimeType": "EPUB",
+                "tracks": null,
+                "variantId": 1
+              }
+            ]
+          }
+        ]
+      },
+      "status": {
+        "availabilityInformation": {
+          "unlimited": false,
+          "availability": 1,
+          "isAvailable": true
+        },
+        "activeReservations": 0,
+        "maxLendingDuration": 1209600.000000000,
+        "nextAvailabilityDate": "2024-03-15T11:39:23.129884190Z",
+        "reservable": false
+      },
+      "userInformation": {
+        "reservation": null,
+        "positionInQueue": null,
+        "lend": null,
+        "lendExtendable": false,
+        "productOnWishlist": false,
+        "productOnWishlistPinned": false,
+        "lendCount": 3,
+        "reservationCount": 0,
+        "progress": {
+          "specific_id": {
+            "timestamp": "2024-01-30T10:19:20.810Z",
+            "position": 0,
+            "progressInPercentage": 0,
+            "locationObject": null
+          }
+        },
+        "userRating": {
+          "userId": "empty-user",
+          "onleiheId": "onleihe-1",
+          "libraryId": "library-1",
+          "productId": "eMagazine-2_9",
+          "score": 0,
+          "comment": "",
+          "updated": "2024-03-15T11:39:23.165210199Z"
+        },
+        "hasReservation": false,
+        "hasLend": false
+      },
+      "productRating": {
+        "numberOfRatings": 0,
+        "averageRating": 0.0,
+        "userComment": []
+      },
+      "recommendations": null,
+      "job": null,
+      "userAction": [
+        {
+          "actionKey": "LEND",
+          "performable": true,
+          "messages": []
+        },
+        {
+          "actionKey": "EXTEND_LEND",
+          "performable": false,
+          "messages": [
+            {
+              "key": "not-lend",
+              "message": "product is not lend"
+            },
+            {
+              "key": "lend-not-extandable",
+              "message": "lend not extendable due to failed condition check"
+            }
+          ]
+        },
+        {
+          "actionKey": "RESERVE",
+          "performable": false,
+          "messages": [
+            {
+              "key": "available-for-lend",
+              "message": "product cannot be reserved as it is available and can be lend."
+            }
+          ]
+        },
+        {
+          "actionKey": "EARLY_RETURN",
+          "performable": false,
+          "messages": [
+            {
+              "key": "not-lend",
+              "message": "product is not lend"
+            }
+          ]
+        },
+        {
+          "actionKey": "WISHLIST",
+          "performable": true,
+          "messages": []
+        },
+        {
+          "actionKey": "REMOVE_WISHLIST",
+          "performable": false,
+          "messages": [
+            {
+              "key": "product-not-on-wishlist",
+              "message": "product is not no wishlist"
+            }
+          ]
+        },
+        {
+          "actionKey": "ACCEPT_RESERVATION",
+          "performable": false,
+          "messages": [
+            {
+              "key": "no-reservations-available",
+              "message": "no reservation available for product"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "extendableProduct",
+      "product": {
+        "id": "extendableProduct",
+        "externalId": "external-extendableProduct",
+        "productIdentifiers": [],
+        "mediaType": "E_BOOK",
+        "containerIds": [],
+        "includes": [],
+        "isContainer": false,
+        "title": "Nur noch ein einziges Mal",
+        "subTitle": "Roman",
+        "language": [
+          "ger"
+        ],
+        "languageName": [
+          "Deutsch"
+        ],
+        "content": "Eine Achterbahn der Gefühle Als Lily Ryle kennenlernt, scheinen all ihre Träume wahr zu werden: eine neue Stadt, der erste Job und dann noch Ryle - überaus attraktiv, überaus wohlhabend und überaus erfolgreich. Vergessen scheint Lilys schwierige Kindheit. Vergessen auch Atlas, ihre erste Liebe, der gegenüber von Lily squattete - bis ihr Vater die beiden erwischte und Atlas von heute auf morgen verschwand. Und dann steht Atlas auf einmal vor ihr. Als Ryle von ihrer gemeinsamen Vorgeschichte erfährt, weckt dies seine Eifersucht ...",
+        "categories": [
+          {
+            "id": "category-51",
+            "name": "Romane & Erzählungen",
+            "description": "Romane & Erzählungen Kategorie"
+          }
+        ],
+        "themaCategories": [],
+        "series": [],
+        "authors": [
+          {
+            "firstName": "Colleen",
+            "lastName": "Hoover",
+            "order": 1
+          }
+        ],
+        "translators": [],
+        "publisher": "dtv Verlagsgesellschaft",
+        "narrators": [],
+        "extent": [],
+        "format": [
+          "E_PUB"
+        ],
+        "filesize": {
+          "value": 2431,
+          "unit": "KB"
+        },
+        "inventoryDate": null,
+        "publicationDate": "2024-02-20T07:30:12.216Z",
+        "covers": [
+          {
+            "type": "IMAGE_SMALL",
+            "uri": "https://static.onleihe.de/images/dtv/20210109/9783423432832/im9783423432832s.jpg",
+            "size": 0
+          }
+        ],
+        "supplierContent": [
+          {
+            "id": "external-test-supplier",
+            "name": "Test Supplier",
+            "previews": [
+              {
+                "mimeType": "PDF",
+                "uri": "https://reader.onleihe.de/#/book/v9783455011128",
+                "size": 0
+              },
+              {
+                "mimeType": "EPUB",
+                "uri": "https://www.onleihe.de/dresden/frontend/preview,0-0-367321107-600-0-0-0-0-0-0-0.html",
+                "size": 1241
+              }
+            ],
+            "drmInformation": [
+              {
+                "drmSystem": "CASTLABS",
+                "specificId": "specific_id",
+                "fileSize": 2431,
+                "uri": "castlabs/uri",
+                "mimeType": "EPUB",
+                "tracks": null,
+                "variantId": 1
+              }
+            ]
+          }
+        ]
+      },
+      "status": {
+        "availabilityInformation": {
+          "unlimited": false,
+          "availability": 8,
+          "isAvailable": true
+        },
+        "activeReservations": 0,
+        "maxLendingDuration": 172800.000000000,
+        "nextAvailabilityDate": "2024-03-15T11:39:23.132340020Z",
+        "reservable": false
+      },
+      "userInformation": {
+        "reservation": null,
+        "positionInQueue": null,
+        "lend": {
+          "userId": "empty-user",
+          "profileId": "master",
+          "productId": "extendableProduct",
+          "lendId": "65f3f99e21373d6d310f9e9b",
+          "startDate": "2024-03-15T07:32:46.870Z",
+          "endDate": "2024-03-17T07:32:46.870Z",
+          "assets": [
+            {
+              "assetId": "specific_id",
+              "type": "EPUB"
+            }
+          ],
+          "mediaType": "E_BOOK"
+        },
+        "lendExtendable": true,
+        "productOnWishlist": false,
+        "productOnWishlistPinned": false,
+        "lendCount": 3,
+        "reservationCount": 0,
+        "progress": {
+          "specific_id": {
+            "timestamp": "2024-01-30T10:19:20.810Z",
+            "position": 0,
+            "progressInPercentage": 0,
+            "locationObject": null
+          }
+        },
+        "userRating": {
+          "userId": "empty-user",
+          "onleiheId": "onleihe-1",
+          "libraryId": "library-1",
+          "productId": "extendableProduct",
+          "score": 0,
+          "comment": "",
+          "updated": "2024-03-15T11:39:23.215980316Z"
+        },
+        "hasReservation": false,
+        "hasLend": true
+      },
+      "productRating": {
+        "numberOfRatings": 0,
+        "averageRating": 0.0,
+        "userComment": []
+      },
+      "recommendations": null,
+      "job": {
+        "id": "65e92f9b7c0ac018bd0ce6ba",
+        "userId": "empty-user",
+        "type": "LEND_JOB",
+        "state": "FAILED",
+        "start": "2024-03-07T03:08:11.609Z",
+        "lastUpdate": "2024-03-07T03:08:11.609Z",
+        "completed": null,
+        "apiError": null,
+        "progress": {
+          "completedSteps": 0,
+          "totalSteps": 2
+        }
+      },
+      "userAction": [
+        {
+          "actionKey": "LEND",
+          "performable": false,
+          "messages": [
+            {
+              "key": "already-lend",
+              "message": "product already lend by user"
+            }
+          ]
+        },
+        {
+          "actionKey": "EXTEND_LEND",
+          "performable": true,
+          "messages": []
+        },
+        {
+          "actionKey": "RESERVE",
+          "performable": false,
+          "messages": [
+            {
+              "key": "already-lend",
+              "message": "product already lend by user"
+            },
+            {
+              "key": "available-for-lend",
+              "message": "product cannot be reserved as it is available and can be lend."
+            }
+          ]
+        },
+        {
+          "actionKey": "EARLY_RETURN",
+          "performable": true,
+          "messages": []
+        },
+        {
+          "actionKey": "WISHLIST",
+          "performable": true,
+          "messages": []
+        },
+        {
+          "actionKey": "REMOVE_WISHLIST",
+          "performable": false,
+          "messages": [
+            {
+              "key": "product-not-on-wishlist",
+              "message": "product is not no wishlist"
+            }
+          ]
+        },
+        {
+          "actionKey": "ACCEPT_RESERVATION",
+          "performable": false,
+          "messages": [
+            {
+              "key": "no-reservations-available",
+              "message": "no reservation available for product"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

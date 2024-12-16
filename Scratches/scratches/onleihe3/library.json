@@ -1,0 +1,10 @@
+{
+  "id": "test-library-1",
+  "name": "Johannstadt Library",
+  "state": "ACTIVE",
+  "address": {},
+  "contact": {},
+  "libraryELearningSettings": {
+    "enabledELearning": true
+  }
+}

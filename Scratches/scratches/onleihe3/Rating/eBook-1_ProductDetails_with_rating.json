@@ -1,0 +1,358 @@
+{
+  "productId": "eBook-1",
+  "product": {
+    "id": "eBook-1",
+    "externalId": "external-eBook-1",
+    "productIdentifiers": [
+      {
+        "identifierType": "ISBN",
+        "identifier": "9783455011128"
+      }
+    ],
+    "mediaType": "E_BOOK",
+    "containerIds": [],
+    "includes": [],
+    "isContainer": false,
+    "title": "Ins All",
+    "subTitle": "Die faszinierende Geschichte vom ersten Flug in den Weltraum",
+    "language": [
+      "ger"
+    ],
+    "languageName": [
+      "Deutsch"
+    ],
+    "content": "\"Brillant geschrieben, atemberaubend spannend und unglaublich gut recherchiert.\" The Sunday Times Als Jurij Gagarin 1961 als erster Mensch ins All flog, hatte er nicht nur die Schwerkraft, sondern auch den Eisernen Vorhang überwunden, der auf der Erde den Kommunismus vom Kapitalismus trennte.",
+    "categories": [
+      {
+        "id": "category-1",
+        "name": "Sachmedien & Ratgeber",
+        "description": "Sachmedien & Ratgeber Kategorie"
+      }
+    ],
+    "themaCategories": [
+      {
+        "id": "DNBT",
+        "values": {
+          "de": {
+            "path": "Biographie, Literatur und Literaturwissenschaft|Biografien und Sachliteratur|Biografien: allgemein|Biografien: Wissenschaft, Technologie und Medizin",
+            "leaf": "Biografien: Wissenschaft, Technologie und Medizin"
+          },
+          "en": {
+            "path": "Biography, Literature and Literary studies|Biography and non-fiction prose|Biography: general|Biography: science, technology and medicine",
+            "leaf": "Biography: science, technology and medicine"
+          }
+        }
+      }
+    ],
+    "series": [],
+    "authors": [
+      {
+        "firstName": "Stephen",
+        "lastName": "Walker",
+        "order": 1
+      }
+    ],
+    "translators": [
+      {
+        "firstName": "Sigrid",
+        "lastName": "Schmid"
+      },
+      {
+        "firstName": "Hans-Peter",
+        "lastName": "Remmler"
+      }
+    ],
+    "publisher": "HOFFMANN UND CAMPE VERLAG GmbH",
+    "narrators": [],
+    "extent": [
+      {
+        "unit": "PAGES",
+        "value": "574",
+        "extentType": "CONTENT_PAGE_COUNT"
+      }
+    ],
+    "format": [
+      "E_PUB"
+    ],
+    "filesize": {
+      "value": 2431,
+      "unit": "KB"
+    },
+    "inventoryDate": null,
+    "publicationDate": "2023-12-30T07:15:02.054Z",
+    "covers": [
+      {
+        "type": "IMAGE_SMALL",
+        "uri": "https://static.onleihe.de/images/readbox/20220328/9783455011128/im9783455011128s.jpg",
+        "size": 0
+      }
+    ],
+    "supplierContent": [
+      {
+        "id": "external-test-supplier",
+        "name": "Test Supplier",
+        "previews": [
+          {
+            "mimeType": "PDF",
+            "uri": "https://reader.onleihe.de/#/book/v9783455011128",
+            "size": 0
+          },
+          {
+            "mimeType": "EPUB",
+            "uri": "https://www.onleihe.de/dresden/frontend/preview,0-0-367321107-600-0-0-0-0-0-0-0.html",
+            "size": 1241
+          }
+        ],
+        "drmInformation": [
+          {
+            "drmSystem": "CASTLABS",
+            "specificId": "specific_id",
+            "fileSize": 2431,
+            "uri": "castlabs/uri",
+            "mimeType": "EPUB",
+            "tracks": null,
+            "variantId": 1
+          }
+        ]
+      }
+    ]
+  },
+  "status": {
+    "availabilityInformation": {
+      "unlimited": false,
+      "availability": 98,
+      "isAvailable": true
+    },
+    "activeReservations": 0,
+    "maxLendingDuration": 1209600,
+    "nextAvailabilityDate": "2024-02-22T08:45:35.903635451Z",
+    "reservable": false
+  },
+  "userInformation": {
+    "reservation": null,
+    "positionInQueue": null,
+    "lend": null,
+    "lendExtendable": false,
+    "productOnWishlist": false,
+    "productOnWishlistPinned": false,
+    "lendCount": 19,
+    "reservationCount": 7,
+    "progress": {
+      "specific_id": {
+        "timestamp": "2024-01-30T12:56:09.175Z",
+        "position": 0,
+        "progressInPercentage": 0,
+        "locationObject": null
+      }
+    },
+    "userRating": {
+      "userId": "active-user",
+      "onleiheId": "onleihe-1",
+      "libraryId": "library-1",
+      "productId": "eBook-1",
+      "score": 1,
+      "comment": "nicht so gut",
+      "updated": "2024-02-22T08:45:35.014362500Z"
+    },
+    "hasReservation": false,
+    "hasLend": false
+  },
+  "productRating": null,
+  "recommendations": {
+    "moreFromAuthor": {
+      "products": [],
+      "size": 8,
+      "page": 1,
+      "query": {
+        "size": 8,
+        "from": 0,
+        "query": [
+          {
+            "query": "true",
+            "fields": [
+              "licence.isAvailable"
+            ],
+            "isWildcard": false,
+            "isExact": true,
+            "operator": "OR"
+          },
+          {
+            "query": "ger",
+            "fields": [
+              "language"
+            ],
+            "isWildcard": false,
+            "isExact": true,
+            "operator": "OR"
+          }
+        ],
+        "preFilters": [
+          {
+            "field": "authors_fullName",
+            "values": [
+              "Stephen Walker"
+            ],
+            "type": "TERMS",
+            "operator": "OR"
+          },
+          {
+            "field": "productId",
+            "values": [
+              "eBook-1"
+            ],
+            "type": "TERMS",
+            "operator": "NOT"
+          }
+        ],
+        "postFilters": [],
+        "facets": [],
+        "sort": [],
+        "userLanguage": "de",
+        "features": []
+      },
+      "actionType": "SEARCH"
+    },
+    "moreFromSeries": {
+      "products": [],
+      "size": 0,
+      "page": 0,
+      "query": {
+        "size": 10,
+        "from": 0,
+        "query": null,
+        "preFilters": [],
+        "postFilters": [],
+        "facets": null,
+        "sort": [],
+        "userLanguage": "de",
+        "features": []
+      },
+      "actionType": "SEARCH"
+    },
+    "similarProducts": {
+      "products": [],
+      "size": 8,
+      "page": 1,
+      "query": {
+        "size": 8,
+        "from": 0,
+        "query": [
+          {
+            "query": "true",
+            "fields": [
+              "licence.isAvailable"
+            ],
+            "isWildcard": false,
+            "isExact": true,
+            "operator": "OR"
+          },
+          {
+            "query": "ger",
+            "fields": [
+              "language"
+            ],
+            "isWildcard": false,
+            "isExact": true,
+            "operator": "OR"
+          }
+        ],
+        "preFilters": [
+          {
+            "field": "themaCategories.id",
+            "values": [
+              "DNBT"
+            ],
+            "type": "TERMS",
+            "operator": "OR"
+          },
+          {
+            "field": "productId",
+            "values": [
+              "eBook-1"
+            ],
+            "type": "TERMS",
+            "operator": "NOT"
+          }
+        ],
+        "postFilters": [],
+        "facets": [],
+        "sort": [],
+        "userLanguage": "de",
+        "features": []
+      },
+      "actionType": "SEARCH"
+    }
+  },
+  "job": null,
+  "userAction": [
+    {
+      "actionKey": "LEND",
+      "performable": false,
+      "messages": [
+        {
+          "key": "max-number-of-lend",
+          "message": "reached max number of active lends"
+        }
+      ]
+    },
+    {
+      "actionKey": "EXTEND_LEND",
+      "performable": false,
+      "messages": [
+        {
+          "key": "not-lend",
+          "message": "product is not lend"
+        },
+        {
+          "key": "lend-not-extandable",
+          "message": "lend not extendable due to failed condition check"
+        }
+      ]
+    },
+    {
+      "actionKey": "RESERVE",
+      "performable": false,
+      "messages": [
+        {
+          "key": "max-number-of-reservations",
+          "message": "reached max number of reservations per user"
+        }
+      ]
+    },
+    {
+      "actionKey": "EARLY_RETURN",
+      "performable": false,
+      "messages": [
+        {
+          "key": "not-lend",
+          "message": "product is not lend"
+        }
+      ]
+    },
+    {
+      "actionKey": "WISHLIST",
+      "performable": true,
+      "messages": []
+    },
+    {
+      "actionKey": "REMOVE_WISHLIST",
+      "performable": false,
+      "messages": [
+        {
+          "key": "product-not-on-wishlist",
+          "message": "product is not no wishlist"
+        }
+      ]
+    },
+    {
+      "actionKey": "ACCEPT_RESERVATION",
+      "performable": false,
+      "messages": [
+        {
+          "key": "no-reservations-available",
+          "message": "no reservation available for product"
+        }
+      ]
+    }
+  ]
+}

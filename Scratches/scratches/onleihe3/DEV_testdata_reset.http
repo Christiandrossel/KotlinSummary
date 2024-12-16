@@ -1,0 +1,14 @@
+### inventory service
+POST https://swagger:LoveAVGL@inventory-ycvbufx2fa-ew.a.run.app/v1/testdata/reset
+
+<> 2024-10-14T134820.404.json
+<> 2024-10-14T134802.401.json
+
+### user service
+POST https://swagger:LoveAVGL@user-ycvbufx2fa-ew.a.run.app/v1/testdata/reset
+### drm service
+POST https://swagger:LoveAVGL@drm-facade-ycvbufx2fa-ew.a.run.app/v1/testdata/reset
+### management service
+POST https://swagger:LoveAVGL@onleihe-management-ycvbufx2fa-ew.a.run.app/v1/testdata/reset
+### messaging service
+POST https://swagger:LoveAVGL@user-messaging-ycvbufx2fa-ew.a.run.app/v1/testdata/reset

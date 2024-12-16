@@ -1,0 +1,130 @@
+{
+  "id": "test-onleihe-1",
+  "divibibLibraryId": "test-external-onleihe-1",
+  "name": "Onleihe Dresden TEST 01",
+  "state": "ACTIVE",
+  "regionId": "german-region-id",
+  "address": {
+    "street": "Theresienstraße",
+    "houseNumber": "11",
+    "postalCode": "01097",
+    "city": "Dresden"
+  },
+  "contact": {
+    "nameContactPerson": "Contact Person",
+    "phone": "0123456789123",
+    "email": "test@email.de",
+    "fax": "012345678123",
+    "homepage": "www.test-homepage.de"
+  },
+  "isGlobalContact": false,
+  "socialMediaLinks": {
+    "facebook": "https://www.facebook.com/ekz.bibliotheksservice",
+    "instagram": "https://www.instagram.com/ekz_bibliotheksservice/",
+    "youtube": "https://www.youtube.com/channel/UC4QX0Z4Z2Z0X6Z0Z4Z2Z0X6Q",
+    "tiktok": null,
+    "xPlatform": "https://twitter.com/ekz_bibliothek"
+  },
+  "additionalLinks": [
+    {
+      "title": "Medienwünsche",
+      "iconKey": null,
+      "url": "https://www.ekz.de/media/"
+    },
+    {
+      "title": "Jubiläum",
+      "iconKey": "jubilee",
+      "url": "https://www.ekz.de/jubilaeum/"
+    }
+  ],
+  "settings": {
+    "enabledLanguages": [
+      {
+        "name": "Deutsch",
+        "code": "de_DE",
+        "active": true
+      },
+      {
+        "name": "English",
+        "code": "en_GB",
+        "active": true
+      }
+    ],
+    "selectedTheme": "theme-a",
+    "thumbnail": null
+  },
+  "restrictions": {
+    "maxNumberOfActiveLendsPerUser": 15,
+    "maxNumberOfReservationsPerUser": 5,
+    "lendRestrictions": {
+      "E_AUDIO": {
+        "lendAcceptanceDuration": "PT144H",
+        "maxLendingDuration": "PT600H",
+        "lendExtensionDuration": "PT240H",
+        "automaticReservationAcceptance": false
+      },
+      "E_BOOK": {
+        "lendAcceptanceDuration": "PT144H",
+        "maxLendingDuration": "PT720H",
+        "lendExtensionDuration": "PT240H",
+        "automaticReservationAcceptance": false
+      },
+      "E_LEARNING": {
+        "lendAcceptanceDuration": "PT144H",
+        "maxLendingDuration": "PT240H",
+        "lendExtensionDuration": "PT120H",
+        "automaticReservationAcceptance": false
+      },
+      "E_MUSIC": {
+        "lendAcceptanceDuration": "PT144H",
+        "maxLendingDuration": "PT264H",
+        "lendExtensionDuration": "PT120H",
+        "automaticReservationAcceptance": false
+      },
+      "E_MAGAZINE": {
+        "lendAcceptanceDuration": "PT144H",
+        "maxLendingDuration": "PT360H",
+        "lendExtensionDuration": "PT240H",
+        "automaticReservationAcceptance": false
+      },
+      "E_PAPER": {
+        "lendAcceptanceDuration": "PT144H",
+        "maxLendingDuration": "PT264H",
+        "lendExtensionDuration": "PT240H",
+        "automaticReservationAcceptance": false
+      },
+      "E_VIDEO": {
+        "lendAcceptanceDuration": "PT72H",
+        "maxLendingDuration": "PT408H",
+        "lendExtensionDuration": "PT264H",
+        "automaticReservationAcceptance": false
+      }
+    },
+    "defaultLendRestrictions": {
+      "lendAcceptanceDuration": "PT240H",
+      "maxLendingDuration": "PT360H",
+      "lendExtensionDuration": "PT264H",
+      "automaticReservationAcceptance": false
+    },
+    "maxNumberOfReservations": 10
+  },
+  "hasLibrariesELearningEnabled": true,
+  "eLearningSettings": {
+    "librariesWithEnabledELearning": [
+      "library-1",
+      "library-2",
+      "library-3"
+    ]
+  },
+  "currentLegalDocuments": {
+    "accessibility-statement": "ACCESSIBILITY_STATEMENT",
+    "general-data-protection-regulation": "GENERAL_DATA_PROTECTION_REGULATION",
+    "imprint": "IMPRINT",
+    "terms-of-conditions": "TERMS_AND_CONDITIONS",
+    "old-general-data-protection-regulation": "GENERAL_DATA_PROTECTION_REGULATION"
+  },
+  "type": "LIBRARY_ORGANIZATION_A",
+  "clientType": "ONLINE_LIBRARY",
+  "createdAt": "2024-03-12T03:04:42.723Z",
+  "updatedAt": "2024-03-12T03:04:42.734Z"
+}
