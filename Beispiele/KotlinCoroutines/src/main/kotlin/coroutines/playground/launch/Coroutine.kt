@@ -1,8 +1,23 @@
-//package coroutines.teilnehmer.launch
-//
-//import coroutines.kotlin.coroutines.channels.launchWordConsumer
-//import coroutines.printlnWithThreadInfo
-//import kotlinx.coroutines.*
+package coroutines.teilnehmer.launch
+
+import coroutines.kotlin.coroutines.channels.launchWordConsumer
+import coroutines.printlnWithThreadInfo
+import kotlinx.coroutines.*
+
+import kotlinx.coroutines.*
+
+fun main() {
+    println("Start")  // Läuft sofort
+
+    runBlocking {
+        delay(1000) // Wartet 1 Sekunde
+        println("Coroutine in runBlocking!")
+    }
+
+    println("Ende") // Wird erst nach der Coroutine ausgeführt
+}
+
+
 //
 //fun main() = runBlocking {
 //    val job = launch() {
