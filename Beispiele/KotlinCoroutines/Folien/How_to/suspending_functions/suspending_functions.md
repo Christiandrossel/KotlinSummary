@@ -136,6 +136,37 @@ Task 2 fertig
 
 ✅ **Das Verhalten entspricht einem normalen synchronen Funktionsaufruf.**
 
+## Weiteres Beispiel
+```kotlin
+suspend fun doSomething() {
+    delay(100)
+    println("do something")
+}
+
+suspend fun doSomethingElse() {
+    delay(200)
+    println("do something else")
+}
+
+fun main() = runBlocking {
+    println(" Start the coroutine")
+
+    launch { doSomething() }
+    launch { doSomethingElse() }
+
+    println("End the coroutine")
+}
+```
+
+
+### Output
+```
+Start the coroutine
+End the coroutine
+do something
+do something else
+```
+
 ---
 
 ## **2️⃣ Lösung: `launch` für parallele Verarbeitung (kein Rückgabewert)**

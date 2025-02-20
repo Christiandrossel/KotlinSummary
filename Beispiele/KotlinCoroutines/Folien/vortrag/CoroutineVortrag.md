@@ -13,6 +13,7 @@ Kotlin Coroutines
 
 ## Unterschied zwischen Coroutines und Virtuellen Threads
 Virtuelle Threads (VT):
+* Java bietet seit der Version JDK 19 virtuelle Threads an.
 * Virtuelle Threads werden vom JVM-Scheduler verwaltet und auf Plattform Threads gemappt.
 * Erstellt eigene JVM-verwaltete Threads.
 * Coroutine gibt aktiv die Kontrolle ab (suspend)
@@ -107,8 +108,9 @@ Virtuelle Threads (VT):
 * **`delay()`** ist eine suspend Funktion, die den Thread nicht blockiert.
 
 ### Was macht der Compiler drauß?
-* Der **Kotlin-Compiler** transformiert eine `suspend`-Funktion in eine **State Machine**, 
+* Der **Kotlin-Compiler** transformiert eine `suspend`-Funktion in eine **State Machine**, (Zustandsmaschine)
 * dadurch wird der Ausführungszustand gespeichert und es ermöglicht, die Funktion später wieder aufzunehmen
+* Er speichert den Fortschritt und kann ihn fortsetzen wenn nötig
 * ohne den aktuellen Thread zu blockieren.
 
 #### Was genau passiert?
@@ -136,11 +138,27 @@ Virtuelle Threads (VT):
 
 
 ## Async Await
+* Ebenfalls wie launch, um parallele Prozesse durchzuführen
+* Unterschied zu launch ist, dass es einen Wert zurückgibt
+* ``async`` startet eine Coroutine und gibt ein ``Deferred<T>``-Objekt zurück
+* Ein Deffered ist wie ein Future oder Promise in anderen Sprachen - Es repräsentiert ein zukünftiges Ergebnis
+* Berechnung läuft asynchron im Hintergrund
+
+### Await
+* ``await()`` wird auf einem ``Deferred``-Objekt aufgerufen, um auf das **Ergebnis zu warten**
+* Der Code blockiert nicht den Thread, sondern nur die Coroutine selbst, bis das Ergebnis verfügbar ist.
+* Achtung das ``await()`` muss immer aufgerufen werden, sonst wird das Ergebnis nicht zurückgegeben.
+* Wenn direkt nach dem ``async``-Block ``await()`` aufgerufen wird, wird das Ergebnis sofort zurückgegeben 
+* das kann die Coroutine blockieren.
 
 ## Async Await 02
+* Durch den Aufruf von ``await()`` erhalten wir das ``Deferred``-Objekt zurück
+* Mit dem Aufruf von ``await()`` wird das Ergebnis zurückgegeben. Also die Zahl 10 und 20 als Integer
 
-## Async Await 03
-
+## Async Await 03 lazily
+* Außerdem ist möglich eine Verzögerung zu setzen
+* Mit start = CoroutineStart.LAZY wird die Coroutine erst gestartet, wenn ``await()`` aufgerufen wird
+* Das kann nützlich sein, wenn die Coroutine erst später benötigt wird.
 
 ## Flows
 

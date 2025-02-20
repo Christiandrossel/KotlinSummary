@@ -88,6 +88,50 @@ val result = async {
 }.await()
 ```
 
+**Java Thread-Erstellung mit ``Thread`` und ``Runnable``**
+```java
+public class JavaThreadExample {
+    public static void main(String[] args) {
+        Thread thread = new Thread(() -> {
+            try {
+                Thread.sleep(2000); // Simuliert eine Verzögerung
+                System.out.println("Thread abgeschlossen!");
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        });
+
+        thread.start();
+        System.out.println("Hauptprogramm läuft weiter...");
+    }
+}
+```
+**Probleme mit Java-Threads:**
+* Erzeugen eigene OS-Threads → hoher Ressourcenverbrauch.
+* Manuelles Thread-Management nötig.
+* Thread.sleep(2000) blockiert den aktuellen Thread.
+
+
+** Kotlin: Coroutine-Erstellung mit ``launch {}``**
+```kotlin
+import kotlinx.coroutines.*
+
+fun main() = runBlocking {
+  launch {
+    delay(2000) // Simuliert eine Verzögerung (aber blockiert keinen Thread!)
+    println("Coroutine abgeschlossen!")
+  }
+
+  println("Hauptprogramm läuft weiter...")
+}
+```
+**Vorteile von Kotlin Coroutines:**
+✅ Leichtgewichtiger als Threads (eine Coroutine nutzt keine neuen OS-Threads).
+✅ Nicht-blockierend – delay(2000) pausiert die Coroutine, aber blockiert keinen Thread!
+✅ Einfach zu verwalten – Kein Thread.sleep(), keine InterruptedException.
+
+
+
 ✨ **Weniger Code, weniger Fehler, besser lesbar!**
 
 ---
