@@ -1,15 +1,44 @@
 # Stichpunkte
+
+## Einleitung
+### **Einleitung: Kotlin Coroutines – Asynchronität einfach und effizient**
+
+In der modernen Softwareentwicklung spielen **Asynchronität und Parallelverarbeitung** eine entscheidende Rolle. 
+Egal, ob es um das **Laden von Daten** aus einer Datenbank, **Netzwerkaufrufe** oder die **Verarbeitung großer Datenmengen** geht – eine **effiziente Nutzung von Ressourcen** ist unerlässlich.
+
+Traditionell wurden solche Aufgaben in Java mit **Threads, Callbacks oder `Future`/`CompletableFuture`** umgesetzt. 
+Doch diese Ansätze führen oft zu **kompliziertem, verschachteltem Code** und sind schwer zu verwalten.
+
+Jedoch wollen wir leichten verständlichen Code schreiben, der ebenso leicht wartbar ist, ohne einen Knoten im Gehirn zu bekommen.
+
+Hier kommt **Kotlin Coroutines** ins Spiel! Coroutines bieten eine **leichte, nicht-blockierende Möglichkeit**, 
+asynchronen Code zu schreiben – und das **ohne komplizierte Thread-Logik**.
+
+### **Warum Coroutines?**
+✔ **Nicht-blockierend**: Aufgaben laufen parallel, ohne Threads zu blockieren.  
+✔ **Einfacher Code**: Kein Callbacks-Chaos, kein `Thread.sleep()` oder kompliziertes `CompletableFuture`.  
+✔ **Leichtgewichtig**: Tausende Coroutines laufen effizient auf wenigen Threads.  
+✔ **Flexibel**: Steuerung durch `launch`, `async`, `flow` und verschiedene `Dispatcher`.
+
+In diesem Vortrag werden wir die Grundlagen von **Kotlin Coroutines** kennenlernen, 
+wie sie funktionieren 
+und warum sie eine der **mächtigsten Funktionen von Kotlin** sind.
+
 ## Unterschied zu Java Threads
 * In Java sind Threads eine **schwere Betriebssystem-Ressource**
 * Jeder Thread hat einen eigenenThread Speicher (in der Regel mehrere MB).
 * Die Erstellung und Umschaltung zwischen Threads ist **langsam und speicherintensiv**.
 * Das Betriebssystem steuert das Thread-Scheduling (**präemptives Multitasking**).
 
-Kotlin Coroutines
+## Kotlin Coroutines
 * Eine Coroutine ist **leichter als ein Thread** und nutzt **kooperatives Multitasking**.
 * Coroutines verwenden einen **gemeinsamen Thread-Pool** und werden innerhalb von Threads verwaltet.
 * Sie sind **suspendierbar**, d. h. sie blockieren keinen echten Thread und können zwischengespeichert oder verzögert werden.
 * Perfekt für **asynchrone und parallele** Programmierung.
+
+Kotlin-Coroutines sind ein leichtgewichtiges Modell zur Nebenläufigkeit, das **auf der JVM läuft.** 
+Im Hintergrund generiert Kotlin **keinen nativen Java-Code für Coroutines**, 
+sondern nutzt die Kotlin-Standardbibliothek und die JVM, um Coroutines effizient zu implementieren.
 
 ## Unterschied zwischen Coroutines und Virtuellen Threads
 Virtuelle Threads (VT):

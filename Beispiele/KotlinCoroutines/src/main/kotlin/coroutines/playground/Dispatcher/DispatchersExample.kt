@@ -71,5 +71,7 @@ class DispatchersExample {
         launch(customDispatcher) {
             println("I'm working in thread ${Thread.currentThread().name}")
         }
+        customDispatcher.close() // shutdown the dispatcher
+        // If the dispatcher is closed, the coroutine will not be executed and the program will not terminate!
     }
 }
