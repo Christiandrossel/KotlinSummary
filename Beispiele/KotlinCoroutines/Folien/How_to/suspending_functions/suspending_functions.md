@@ -1,12 +1,16 @@
-Wenn du eine **normale Funktion** (keine `suspend`-Funktion) innerhalb eines `runBlocking`-Blocks ausführst, passiert Folgendes:
+Wenn du eine **normale Funktion** (keine `suspend`-Funktion) innerhalb eines `runBlocking`-Blocks ausführst, passiert
+Folgendes:
 
 - Die **normale Funktion wird ganz normal synchron ausgeführt**.
-- **`runBlocking` verhält sich wie eine normale Funktion**, die den aktuellen **Thread blockiert**, bis der gesamte Code innerhalb abgeschlossen ist.
-- **Es gibt keine Coroutines oder asynchrone Verarbeitung**, weil die Funktion **nicht ausgesetzt (`suspend`)** werden kann.
+- **`runBlocking` verhält sich wie eine normale Funktion**, die den aktuellen **Thread blockiert**, bis der gesamte Code
+  innerhalb abgeschlossen ist.
+- **Es gibt keine Coroutines oder asynchrone Verarbeitung**, weil die Funktion **nicht ausgesetzt (`suspend`)** werden
+  kann.
 
 ---
 
 ## **🔹 Beispiel: Normale Funktion in `runBlocking`**
+
 ```kotlin
 import kotlinx.coroutines.*
 
@@ -18,7 +22,7 @@ fun normaleFunktion() {
 
 fun main() = runBlocking {
     println("Start runBlocking")
-    
+
     normaleFunktion() // Normale Funktion aufrufen
 
     println("Ende runBlocking")
@@ -26,6 +30,7 @@ fun main() = runBlocking {
 ```
 
 ### **🔹 Output (Synchron)**
+
 ```
 Start runBlocking
 Start normale Funktion
@@ -35,6 +40,7 @@ Ende runBlocking
 ```
 
 ### **🔹 Was passiert hier genau?**
+
 1. `runBlocking` startet eine **blockierende Coroutine** im **Hauptthread**.
 2. `normaleFunktion()` wird **direkt aufgerufen**, weil sie keine `suspend`-Funktion ist.
 3. **`Thread.sleep(1000)` blockiert den Thread** für 1 Sekunde.
@@ -46,6 +52,7 @@ Da die Funktion **nicht `suspend` ist**, wird **der Thread komplett blockiert** 
 ---
 
 ## **🔹 Was passiert, wenn ich stattdessen `suspend` nutze?**
+
 ```kotlin
 import kotlinx.coroutines.*
 
@@ -57,7 +64,7 @@ suspend fun suspendingFunktion() {
 
 fun main() = runBlocking {
     println("Start runBlocking")
-    
+
     suspendingFunktion() // Suspend-Funktion aufrufen
 
     println("Ende runBlocking")
@@ -65,6 +72,7 @@ fun main() = runBlocking {
 ```
 
 ### **🔹 Output (Nicht blockierend)**
+
 ```
 Start runBlocking
 Start suspending Funktion
@@ -74,6 +82,7 @@ Ende runBlocking
 ```
 
 ### **🔹 Was passiert hier?**
+
 1. `runBlocking` startet eine **blockierende Coroutine**.
 2. **`suspendingFunktion()` wird gestartet und gibt mit `delay(1000)` den Thread sofort frei.**
 3. Andere Coroutines könnten währenddessen laufen (aber `runBlocking` blockiert das Hauptprogramm!).
@@ -82,30 +91,35 @@ Ende runBlocking
 ---
 
 ## **🔹 Fazit: Normale Funktion vs. `suspend`-Funktion in `runBlocking`**
-| **Funktionstyp** | **Verhalten in `runBlocking`** | **Thread-Blocking?** |
-|--------------|------------------|------------------|
-| **Normale Funktion** (`fun`) | Wird synchron ausgeführt, **keine Vorteile durch Coroutines** | ✅ **Ja, blockiert Thread** |
+
+| **Funktionstyp**                     | **Verhalten in `runBlocking`**                                          | **Thread-Blocking?**          |
+|--------------------------------------|-------------------------------------------------------------------------|-------------------------------|
+| **Normale Funktion** (`fun`)         | Wird synchron ausgeführt, **keine Vorteile durch Coroutines**           | ✅ **Ja, blockiert Thread**    |
 | **Suspend-Funktion** (`suspend fun`) | Kann pausieren (`delay()`) und **Thread für andere Aufgaben freigeben** | ❌ **Nein, nicht blockierend** |
 
 ---
 
 ## **🔥 TL;DR**
+
 - **Normale Funktionen in `runBlocking` blockieren den Thread vollständig** → Kein Vorteil durch Coroutines!
-- **Suspend-Funktionen (`suspend fun`) können sich aussetzen (`delay()`) und ermöglichen nicht-blockierende Nebenläufigkeit**.
+- **Suspend-Funktionen (`suspend fun`) können sich aussetzen (`delay()`) und ermöglichen nicht-blockierende
+  Nebenläufigkeit**.
 - **Nutze immer `suspend fun`, wenn du Coroutines effizient nutzen möchtest!** 🚀
 
-
-
 ### **Werden mehrere `suspend`-Funktionen in `runBlocking` parallel ausgeführt?**
-Nein, **wenn du mehrere `suspend`-Funktionen direkt in `runBlocking` aufrufst, werden sie sequentiell (nacheinander) ausgeführt** – nicht parallel!
+
+Nein, **wenn du mehrere `suspend`-Funktionen direkt in `runBlocking` aufrufst, werden sie sequentiell (nacheinander)
+ausgeführt** – nicht parallel!
 
 ### **🚨 Wichtige Regel:**
+
 - Ein einfacher `suspend`-Funktionsaufruf **blockiert die Coroutine bis zum Abschluss der Funktion**.
 - **Parallelität** erreichst du nur mit **`launch {}` oder `async {}`**.
 
 ---
 
 ## **1️⃣ Beispiel: Sequentielle Abarbeitung von `suspend`-Funktionen**
+
 ```kotlin
 import kotlinx.coroutines.*
 
@@ -126,17 +140,20 @@ fun main() = runBlocking {
 ```
 
 ### **🔹 Output (Sequentielle Verarbeitung)**
+
 ```
 (1 Sekunde Pause)
 Task 1 fertig
 (1 Sekunde Pause)
 Task 2 fertig
 ```
+
 ➡️ **Warum?** Weil `runBlocking` wartet, bis `task1()` fertig ist, bevor `task2()` startet.
 
 ✅ **Das Verhalten entspricht einem normalen synchronen Funktionsaufruf.**
 
 ## Weiteres Beispiel
+
 ```kotlin
 suspend fun doSomething() {
     delay(100)
@@ -158,8 +175,31 @@ fun main() = runBlocking {
 }
 ```
 
+## Noch ein Beispiel
+
+```kotlin
+suspend fun doSomething() = coroutineScope {
+  launch {
+      println("Launching a coroutine")
+  }
+  launch { println("do something") }
+}
+
+suspend fun doSomethingElse() = coroutineScope {
+  launch { println("do something else") }
+}
+
+fun main() = runBlocking {
+  doSomething()
+  doSomethingElse()
+}
+```
+
+Das obige Beispiel zeigt die suspending function, jedoch wird sie mit einer coroutineScope aufgerufen.
+Das ist wichtig, um launch oder asyc Builder zu verwenden.
 
 ### Output
+
 ```
 Start the coroutine
 End the coroutine
@@ -170,6 +210,7 @@ do something else
 ---
 
 ## **2️⃣ Lösung: `launch` für parallele Verarbeitung (kein Rückgabewert)**
+
 **Wenn du `suspend`-Funktionen parallel ausführen willst, nutze `launch {}`!**
 
 ```kotlin
@@ -192,17 +233,21 @@ fun main() = runBlocking {
 ```
 
 ### **🔹 Output (Parallele Verarbeitung mit `launch`)**
+
 ```
 (1 Sekunde Pause)
 Task 1 fertig
 Task 2 fertig
 ```
+
 ✅ **Jetzt laufen beide `suspend`-Funktionen parallel!**
 
 ---
 
 ## **3️⃣ `async` für parallele Verarbeitung mit Rückgabewerten**
-**Wenn du `suspend`-Funktionen parallel starten willst und einen Wert zurückbekommen möchtest, nutze `async {}` mit `.await()`.**
+
+**Wenn du `suspend`-Funktionen parallel starten willst und einen Wert zurückbekommen möchtest, nutze `async {}`
+mit `.await()`.**
 
 ```kotlin
 import kotlinx.coroutines.*
@@ -227,32 +272,37 @@ fun main() = runBlocking {
 ```
 
 ### **🔹 Output (Parallele Verarbeitung mit `async`)**
+
 ```
 (1 Sekunde Pause)
 Result 1: Ergebnis 1
 Result 2: Ergebnis 2
 ```
+
 ✅ **Hier laufen beide `fetchData()`-Funktionen gleichzeitig und wir warten erst am Ende mit `.await()`.**
 
 ---
 
 ## **4️⃣ Wann nutze ich `launch` und wann `async`?**
-| **Funktion**  | **Wann verwenden?** | **Rückgabewert?** |
-|--------------|----------------|----------------------|
-| **`launch`** | Wenn du **eine Nebenläufige Aufgabe starten willst, die nichts zurückgibt** (z. B. Logging, Fire-and-Forget). | ❌ Nein |
-| **`async`** | Wenn du **einen Wert von einer parallelen Aufgabe zurückbekommen möchtest**. | ✅ Ja, über `.await()` |
+
+| **Funktion** | **Wann verwenden?**                                                                                           | **Rückgabewert?**     |
+|--------------|---------------------------------------------------------------------------------------------------------------|-----------------------|
+| **`launch`** | Wenn du **eine Nebenläufige Aufgabe starten willst, die nichts zurückgibt** (z. B. Logging, Fire-and-Forget). | ❌ Nein                |
+| **`async`**  | Wenn du **einen Wert von einer parallelen Aufgabe zurückbekommen möchtest**.                                  | ✅ Ja, über `.await()` |
 
 ---
 
 ## **5️⃣ Fazit: Wie mache ich Code parallel?**
-| **Code**  | **Parallel?** | **Wartet auf vorherige Aufgabe?** |
-|--------------|----------------|----------------------|
-| `task1(); task2();` | ❌ Nein | ✅ Ja |
-| `launch { task1() }; launch { task2() };` | ✅ Ja | ❌ Nein |
-| `async { task1() }.await(); async { task2() }.await();` | ❌ Nein | ✅ Ja (da `.await()` direkt aufgerufen wird) |
-| `val a = async { task1() }; val b = async { task2() }; a.await(); b.await();` | ✅ Ja | ❌ Nein (da `.await()` erst nach Start beider Tasks erfolgt) |
+
+| **Code**                                                                      | **Parallel?** | **Wartet auf vorherige Aufgabe?**                           |
+|-------------------------------------------------------------------------------|---------------|-------------------------------------------------------------|
+| `task1(); task2();`                                                           | ❌ Nein        | ✅ Ja                                                        |
+| `launch { task1() }; launch { task2() };`                                     | ✅ Ja          | ❌ Nein                                                      |
+| `async { task1() }.await(); async { task2() }.await();`                       | ❌ Nein        | ✅ Ja (da `.await()` direkt aufgerufen wird)                 |
+| `val a = async { task1() }; val b = async { task2() }; a.await(); b.await();` | ✅ Ja          | ❌ Nein (da `.await()` erst nach Start beider Tasks erfolgt) |
 
 🚀 **Fazit:**
+
 - **Ohne `launch` oder `async` → Alles läuft sequentiell.**
 - **Mit `launch` → Parallel, aber ohne Rückgabewert.**
 - **Mit `async {}` + `.await()` → Parallel mit Rückgabewert.**

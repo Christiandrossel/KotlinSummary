@@ -1,6 +1,7 @@
 package coroutines.playground.data
 
 import kotlinx.coroutines.async
+import kotlinx.coroutines.coroutineScope
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.runBlocking
@@ -57,5 +58,15 @@ suspend fun somethingParallel() {
         delay(50)
         println("Ich arbeite...")
 
+    }
+}
+
+
+suspend fun somethingDoAsLaunch() = coroutineScope { // coroutineScope ist eine Coroutine-Builder-Funktion
+    launch{
+        repeat(10) {
+            delay(50)
+            println("Ich arbeite...")
+        }
     }
 }

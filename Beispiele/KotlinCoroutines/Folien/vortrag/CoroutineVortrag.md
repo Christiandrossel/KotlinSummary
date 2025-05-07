@@ -1,6 +1,32 @@
 # Stichpunkte
 
 ## Einleitung
+### Motivation
+🚀 Alice und die Magie der Kotlin Coroutines – Eine User Story
+Alice ist eine talentierte Entwicklerin in einem wachsenden Start-up. Ihr Team arbeitet an einer neuen E-Commerce-Plattform, die blitzschnelle Ladezeiten braucht. Doch Alice hat ein Problem:
+
+🔴 Lange Ladezeiten und blockierte Threads
+🔴 Komplexer, verschachtelter Code mit Callbacks
+🔴 Fehlersuche in asynchronem Code ist ein Albtraum
+
+Eines Tages sitzt Alice mit ihrer Tasse Kaffee am Schreibtisch, als ihr Kollege Tom hereinschneit.
+
+🧑‍💻 Tom: "Alice, warum sind die Produktseiten so langsam?"
+👩‍💻 Alice: "Die API-Aufrufe sind blockierend. Ich arbeite mit Future und CompletableFuture, aber der Code wird immer komplizierter."
+🧑‍💻 Tom: "Kennst du Kotlin Coroutines? Damit kannst du asynchronen Code schreiben, ohne dass dein Gehirn verknotet!"
+
+Alice ist neugierig. Sie öffnet ihr IDE und beginnt, sich mit Coroutines auseinanderzusetzen. Sie entdeckt:
+
+✔ Nicht-blockierend: Ihre API-Calls laufen parallel, ohne Threads zu blockieren.
+✔ Einfacher Code: Keine Callbacks, kein kompliziertes Thread.sleep().
+✔ Leichtgewichtig: Tausende Coroutines laufen effizient auf wenigen Threads.
+✔ Flexibel: launch, async, flow – alles passt sich perfekt an ihre Anforderungen an.
+
+Mit nur wenigen Änderungen in ihrem Code optimiert Alice die Produktseiten. Jetzt lädt alles schneller, ihre Hardware-Ressourcen werden optimal genutzt, und ihr Code ist endlich lesbar und wartbar.
+
+Ein paar Wochen später… 🚀
+Die Plattform ist live, die Nutzer sind begeistert, und Alice? Sie hat endlich wieder Zeit für ihren Kaffee – ohne dass sie in endlosen Callbacks hängen bleibt.
+
 ### **Einleitung: Kotlin Coroutines – Asynchronität einfach und effizient**
 
 In der modernen Softwareentwicklung spielen **Asynchronität und Parallelverarbeitung** eine entscheidende Rolle. 
