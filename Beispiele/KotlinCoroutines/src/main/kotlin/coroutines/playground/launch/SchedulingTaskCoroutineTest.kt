@@ -20,7 +20,7 @@ import java.time.Instant
 //    log.info("Started return expired lends task")
 //    val startTime = Instant.now()
 //    runBlocking(Dispatchers.IO) {
-//        onleiheManagementConnector.getAllOnleiheIds().map {
+//        shopManagementConnector.getAllshopIds().map {
 //            async(executor) {
 //                inventoryServiceConnector.returnExpiredLendsCall(it)
 //                inventoryServiceConnector.messageAboutExpiredLendsCall(it)
@@ -41,9 +41,9 @@ class SchedulingTaskCoroutineTest {
     val ids = listOf("12", "13", "14", "15", "16", "17", "18", "19", "20")
 
 
-    suspend fun getOnleiheIds(): List<String> {
+    suspend fun getshopIds(): List<String> {
         delay(1000)
-        println("Get onleihe ids")
+        println("Get shop ids")
         return ids
     }
 
@@ -69,7 +69,7 @@ class SchedulingTaskCoroutineTest {
         println("Started return expired lends task")
         val startTime = Instant.now()
         runBlocking(Dispatchers.IO) {
-            getOnleiheIds().map {
+            getshopIds().map {
                 async {
                     returnExpiredLendsCall(it.toString())
                     messageAboutExpiredLendsCall(it.toString())
