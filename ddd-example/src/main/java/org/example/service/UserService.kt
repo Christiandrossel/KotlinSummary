@@ -9,13 +9,20 @@ import org.springframework.stereotype.Service
 
 @Service
 class UserService(
-    private val userRepository: UserRepository
+    private val userRepository: UserRepository,
+    private val userEventProducer: org.example.messaging.UserEventProducer
 ) {
 
     fun createUser(userName: String, emailAddress: String): User {
         // basic invariants could be placed in domain; keep minimal validation here
         val entity = UserEntity(name = userName, email = emailAddress)
-        val savedUser = userRepository.save(entity).toDomain()
+        val savedEntity = userRepository.save(entity)
+        val savedUser = savedEntity.toDomain()
+        // publish event
+        val id = savedEntity.id ?: savedUser.id ?: ""
+        if (id.isNotBlank()) {
+            userEventProducer.userCreated(id, savedUser.name, savedUser.email)
+        }
         return savedUser
     }
 
@@ -31,12 +38,15 @@ class UserService(
             name = name ?: current.name,
             email = email ?: current.email
         )
-        return userRepository.save(updated).toDomain()
+        val saved = userRepository.save(updated).toDomain()
+        userEventProducer.userUpdated(id = id, name = name, email = email)
+        return saved
     }
 
     fun deleteUser(id: String) {
-        if (!userRepository.existsById(id)) throw NotFoundException("User $id not found")
+        val current = userRepository.findById(id).orElseThrow { NotFoundException("User $id not found") }
         userRepository.deleteById(id)
+        userEventProducer.userDeleted(id = id, name = current.name, email = current.email)
     }
 
 }
