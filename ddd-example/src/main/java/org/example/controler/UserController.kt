@@ -17,7 +17,6 @@ class UserController(
 
     @ResponseStatus(HttpStatus.CREATED)
     override fun createUser(@Valid request: CreateUserRequest): UserResponse {
-        // TODO validate request (e.g., non-empty, valid email) via @Valid annotations in DTOs if needed
         return userService
             .createUser(request.name, request.email)
             .toApi()

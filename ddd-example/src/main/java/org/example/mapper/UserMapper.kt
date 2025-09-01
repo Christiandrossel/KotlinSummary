@@ -13,11 +13,13 @@ fun User.toApi() = UserResponse(
 fun User.toEntity() = UserEntity(
     id = null,
     name = name,
-    email = email
+    email = email,
+    shoppingList = shoppingList
 )
 
 fun UserEntity.toDomain() = User(
     id = id,
     name = name,
-    email = email
+    email = email,
+    shoppingList = shoppingList
 )

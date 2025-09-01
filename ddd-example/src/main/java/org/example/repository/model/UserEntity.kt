@@ -7,5 +7,6 @@ data class UserEntity(
     val id: String? = null,
 
     val name: String,
-    val email: String
+    val email: String,
+    val shoppingList: List<String> = emptyList()
 )
