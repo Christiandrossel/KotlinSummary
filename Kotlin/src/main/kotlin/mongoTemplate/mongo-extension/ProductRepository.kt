@@ -1,0 +1,1 @@
+data class ProductRepository: MongoRepostory
